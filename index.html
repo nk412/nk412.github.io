@@ -1,44 +1,54 @@
 <html>
-  <head>
-    <meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <title>
-      NK
-    </title>
+<head>
+    <meta charSet="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-      body {
-          max-width: 500px;
-          margin: 10% auto 10% auto;
-          padding-left: 5%;
-          padding-right: 5%;
-          text-align: left;
-          font-family: monospace;
-          font-size: 15;
-          color: #EDE3D1;
-          background-color: #1D232B;
-      }
-      hr { background-color: #3D434B; height: 1px; border: 0; margin: 3em 0; padding: 0;}
-      a {
-        color: F04241;
-      }
-      a:hover {
-        color: lightyellow;
-      }
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 10;
+            padding: 0;
+            font-family: monospace;
+        }
+
+        .container {
+            min-width: 100px;
+            max-width: 500px;
+            text-align: left;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                max-width: 100%;
+            }
+        }
+        a {color: indianred;}
+        a:hover {color: indianred;}
+        hr { background-color: #DDDDDD; height: 1px; border: 0; margin: 2em 0; padding: 0;}
+        body {background-color: #F5F5F5;}
+        h1 {font-size: 1.8em; margin: 0.67em 0;}
+        h2 {font-size: 1.5em; margin: 0.75em 0;}
+        p {font-size: 1em; margin: 1em 0;}
     </style>
-  </head>
-  <body>
-    <h1>Hello,</h1> 
+</head>
+<body>
+    <div class="container">
+        <h1>Hi,</h1> 
     <h2>I'm Nagarjuna.</h2>
     <p>
       I am a software engineer working with large datasets on distributed computing platforms.
     </p>
     <p>
       <br>
-      Jagex → DueDil → Spotify → This One → <b>Peppy</b><br>
-      Dubai → Bristol → Cambridge → <b>London</b>
+      Dubai → Bristol → Cambridge → <b>London</b><br>
+      Jagex → DueDil → Spotify → This One → <b>Peppy Health</b>
     </p>
+    
     <hr>
+
     <p>
-      <a href="https://theroadtovietnam.nk412.com">The Road to Vietnam</a> — GPT-4 powered text adventure game.<br>
+      <a href="https://theroadtovietnam.nk412.com">The Road to Vietnam</a> — an LLM powered text adventure.<br>
       <a href="https://unusualwiki.nk412.com">Unusual Wiki</a> — showcases unusual Wikipedia articles.<br>
       <a href="https://github.com/nk412/corella">corella</a> — correlation plots for the terminal.<br>
       <a href="https://github.com/nk412/pyfzf">pyfzf</a> — a Python wrapper for <i>fzf</i>.<br>
@@ -57,5 +67,6 @@
     <a href="https://www.linkedin.com/in/nk412/">linkedin</a><br>
     <a href="https://github.com/nk412">github</a><br>
     <a href="https://nagarjuna.smugmug.com/">photos</a>
-  </body>
+    </div>
+</body>
 </html>
