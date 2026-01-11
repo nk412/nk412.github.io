@@ -14,7 +14,7 @@ body {
 .container {
     grid-column: 2;
     min-width: 100px;
-    max-width: 500px;
+    max-width: 700px;
     text-align: left;
     padding-top: 100px;
     padding-bottom: 100px;
@@ -39,7 +39,10 @@ p { font-size: 1em; margin: 1em 0; }
 
 /* Links */
 a { color: #666; text-decoration: underline; }
-a:hover { color: #666; }
+a:hover {
+    color: #F5F5F5;
+    background-color: #333;
+}
 
 /* Horizontal rule */
 hr {
@@ -210,6 +213,52 @@ summary {
 
 details[open] summary {
     margin-bottom: 0.5em;
+}
+
+/* Tabs navigation */
+.tabs {
+    margin: 1.5em 0 2.5em 0;
+}
+
+.tab {
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: #999;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+.tab:hover {
+    color: #F5F5F5;
+    background-color: #333;
+}
+
+.tab.active {
+    color: #333;
+    text-decoration: underline;
+}
+
+.tab.active:hover {
+    color: #F5F5F5;
+    background-color: #333;
+}
+
+/* Tab content */
+.tab-content {
+    display: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+#about {
+    max-width: 500px;
+}
+
+#projects, #posts {
+    line-height: 1.5;
 }
 
 /* Mobile responsive */
