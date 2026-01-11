@@ -1,0 +1,236 @@
+/* Base styles */
+body {
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    align-items: start;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lora', serif;
+    background-color: #F5F5F5;
+    color: #333;
+}
+
+.container {
+    grid-column: 2;
+    min-width: 100px;
+    max-width: 500px;
+    text-align: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+/* Typography - Headings */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 100;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.2;
+}
+
+h1 { font-size: 3.7em; margin: 0.67em 0; }
+h2 { font-size: 3em; margin: 0.75em 0; }
+h3 { font-size: 2em; margin: 0.83em 0; }
+h4 { font-size: 1.5em; margin: 1em 0; }
+h5 { font-size: 1.2em; margin: 1em 0; }
+h6 { font-size: 1em; margin: 1em 0; font-weight: 300; }
+
+/* Typography - Body */
+p { font-size: 1em; margin: 1em 0; }
+
+/* Links */
+a { color: #666; text-decoration: underline; }
+a:hover { color: #666; }
+
+/* Horizontal rule */
+hr {
+    background-color: #DDDDDD;
+    height: 1px;
+    border: 0;
+    margin: 2em 0;
+    padding: 0;
+}
+
+/* Blockquotes */
+blockquote {
+    margin: 1.5em 0;
+    padding: 0.5em 0 0.5em 1.5em;
+    border-left: 2px solid #CCCCCC;
+    font-style: italic;
+    color: #555;
+}
+
+blockquote cite {
+    display: block;
+    margin-top: 0.5em;
+    font-style: normal;
+    font-size: 0.9em;
+    color: #777;
+}
+
+/* Lists */
+ul, ol {
+    margin: 1em 0;
+    padding-left: 1.5em;
+}
+
+li {
+    margin: 0.5em 0;
+}
+
+/* Code */
+code {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+    font-size: 0.9em;
+    background-color: #EEEEEE;
+    padding: 0.15em 0.4em;
+    border-radius: 3px;
+}
+
+pre {
+    background-color: #EEEEEE;
+    padding: 1em;
+    overflow-x: auto;
+    border-radius: 3px;
+    margin: 1.5em 0;
+}
+
+pre code {
+    background: none;
+    padding: 0;
+}
+
+/* Tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+}
+
+th, td {
+    text-align: left;
+    padding: 0.75em;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+th {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: #555;
+}
+
+tr:hover {
+    background-color: #EEEEEE;
+}
+
+/* Definition lists */
+dl {
+    margin: 1em 0;
+}
+
+dt {
+    font-weight: 600;
+    margin-top: 1em;
+}
+
+dd {
+    margin-left: 1.5em;
+    color: #555;
+}
+
+/* Images and figures */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+figure {
+    margin: 1.5em 0;
+}
+
+figcaption {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 0.5em;
+    font-style: italic;
+}
+
+/* Emphasis and strong */
+em { font-style: italic; }
+strong { font-weight: 600; }
+
+/* Small text */
+small {
+    font-size: 0.85em;
+    color: #666;
+}
+
+/* Mark/highlight */
+mark {
+    background-color: #F0F0F0;
+    padding: 0.1em 0.3em;
+}
+
+/* Abbreviations */
+abbr[title] {
+    text-decoration: underline dotted;
+    cursor: help;
+}
+
+/* Keyboard input */
+kbd {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+    font-size: 0.85em;
+    background-color: #EEEEEE;
+    border: 1px solid #CCCCCC;
+    border-radius: 3px;
+    padding: 0.15em 0.4em;
+}
+
+/* Sample output */
+samp {
+    font-family: 'SF Mono', 'Monaco', 'Inconsolata', monospace;
+    font-size: 0.9em;
+}
+
+/* Address */
+address {
+    font-style: normal;
+    margin: 1em 0;
+}
+
+/* Details/Summary */
+details {
+    margin: 1em 0;
+}
+
+summary {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+details[open] summary {
+    margin-bottom: 0.5em;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    body {
+        display: block;
+        height: auto;
+        min-height: 100vh;
+    }
+    .container {
+        max-width: 100%;
+        padding: 40px 20px;
+    }
+    details p a {
+        display: block;
+        margin: 0.5em 0;
+    }
+    h1 { font-size: 2.5em; }
+    h2 { font-size: 2em; }
+    h3 { font-size: 1.5em; }
+    table {
+        font-size: 0.9em;
+    }
+}
