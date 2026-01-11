@@ -28,6 +28,9 @@
           <span style="color: #999;"><s>Dubai</s> &nbsp; <s>Bristol</s> &nbsp; <s>Cambridge</s> </span> &nbsp; <em>London</em><br>
           <span style="color: #999;"><s>Jagex</s> &nbsp; <s>DueDil</s> &nbsp; <s>Spotify</s> &nbsp; <s>This One</s> &nbsp; <s>Peppy Health</s> </span> &nbsp; <em>Causaly</em>
         </p>
+        <hr>
+        <p id="now-playing"></p>
+        <hr>
         <p>
           email: firstname <i> dot </i> 412 <i>at</i> gmail <i>dot</i> com<br>
           <a href="https://www.linkedin.com/in/nk412/">linkedin</a><br>
@@ -81,6 +84,18 @@
             const hash = window.location.hash.slice(1) || 'about';
             switchTab(hash);
         });
+
+        fetch('https://nowplaying.nk412.workers.dev/')
+            .then(r => r.json())
+            .then(data => {
+                const el = document.getElementById('now-playing');
+                if (data.now_playing) {
+                    el.innerHTML = `<strong>Now playing:</strong> ▶&#xFE0E; <a href="${data.spotify_url}">${data.artist} - ${data.track}</a>`;
+                } else {
+                    el.innerHTML = '<strong>Now playing:</strong> ⏸&#xFE0E;';
+                }
+            })
+            .catch(() => {});
     </script>
     </div>
 </body>

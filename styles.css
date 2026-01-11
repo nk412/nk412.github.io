@@ -257,6 +257,11 @@ details[open] summary {
     max-width: 500px;
 }
 
+/* Now playing */
+#now-playing {
+    color: #666;
+}
+
 #projects, #posts {
     line-height: 1.5;
 }
