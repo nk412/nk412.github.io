@@ -1,13 +1,14 @@
 @@title: Field notes on agent-assisted coding with Claude
 @@date: 20260111
 
-  <img src="https://postmarks.nk412.workers.dev?city=Spitalfields&country=London&native=United+Kingdom&symbol=moon&palette=22&wear=11&style=envelope&rotation=-5" width="400">
-
 # Field notes on agent-assisted coding with Claude
 
-[Postmarks](https://nk412.com/postmarks/gallery) is a toy project that lets you build little SVGs, like the one above, with a fun amount of customization.
+<img src="https://postmarks.nk412.workers.dev?city=Spitalfields&country=London&native=United+Kingdom&symbol=moon&palette=22&wear=11&style=envelope&rotation=-5" width="400">
 
-While the editor is a static page with some knobs and dials, there's also a tiny service that renders these images based on URL query params to allow for easy embedding. I've been meaning to build something like this for a while now to headline my travel posts, and while this may be trivial to some, **I am unfortunately deathly scared of SVG manipulation**.
+
+##### [Postmarks](https://nk412.com/postmarks/gallery) is a small project that lets you build little SVGs, like the one above, with a fun amount of customization.
+
+While the editor is a static page with some knobs and dials, there's also a tiny service behind the scenes that renders these images based on URL query params to allow for easy embedding. I've been meaning to build something like this for a while now to headline my travel posts, and while this may be trivial to some, **I am unfortunately deathly scared of SVG manipulation**.
 
 So, how far can we get with **Claude Code** and **Opus 4.5**?
 
@@ -49,7 +50,7 @@ What was a lot easier was getting access to "developer-mode" tools.
 - `give me a slider to control the size`
 - `make that slider go from 0-100`
 
-**I find it a lot more productive asking the LLM _to help you_ do what you want, rather than asking it to do what you want.**
+I find it a lot more productive asking the LLM _to help you_ do what you want, rather than asking it to do what you want.
 
 
 ### Preemptive nudging
@@ -74,7 +75,8 @@ Github Pages for static pages (as is this site) is easy to setup through Actions
 
 - `this repo now has CLOUDFLARE_API_TOKEN and ACCOUNT_ID setup as secrets. add an action to deploy on push to main! go go go`
 
-This is bread and butter for LLMs these days, so no issues here. What it immediately does is allow you to start pushing to `main` and see things live!
+This is bread and butter for LLMs these days, so no issues here. Tasks that involve little creativity and mostly just involve following a spec—CI/CD flows, Terraform, etc. are easy to let an agent take control of. What it immediately does is allow you to start pushing to `main` and see things live!
+
 
 
 ### Claude Code on Android
@@ -90,7 +92,7 @@ What it does work really well for is a subset of tasks:
 
 In my experience, for anything larger or complicated, you're better off with a more hands-on approach, just so you can steer it. The results were not disastrous, but every now and then needed some small cleanup patches later.
 
-#### Example
+Here's an example:
 
 `Separate wear-and-tear+rotation into two different sliders` [PR](https://github.com/nk412/postmarks/pull/1)
 
@@ -101,9 +103,13 @@ led to the viewbox breaking, and clipping corners, which had to be fixed by a fo
 
 So, how far can we get with **Claude Code** and **Opus 4.5**?
 
-- At the end of the day, I managed to build something I put off for years. That is a giant win, full stop. Everything else feels minor.
+Turns out, pretty damn far. At the end of the day, I managed to build something I put off for years. That is a giant win, full stop. Everything else feels minor.
+
+Some specific learnings though:
+
+- _"build me tools to do the thing"_ > _"do the thing"_: I find this pattern works best for my way of working, both for debugging as well as fine-tuning things along the way.
 - Claude Code on Android is great for ad-hoc and small maintenance tasks, not so much for active new-feature development.
-- Working with Claude as an active teammate works better than treating it as a contractor you dispatch off with large tasks.
+- Working with Claude as an active teammate works better than treating it as a contractor you dispatch off with large tasks. While I'm sure it's possible to write a PRD that builds the exact same thing in a single shot, I find the back-and-forth course correction along the way invaluable!
 - I'm still learning! There are so many interesting ways to use all these new goodies, so I have not found my optimal flow yet. If there is such a thing...
 
 
