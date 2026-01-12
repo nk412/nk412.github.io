@@ -66,9 +66,11 @@ I find guiding Claude on tangential details before it works on the task helps a 
 The duplicated code would still work, so it's very easy to miss if the end result is all that you're evaluating by.
 
 
-### Setting up continuous deployment
+### Setting up continuous deployment early
 
-Github Pages for static pages (as is this site) is trivial to setup through Actions, and Cloudflare workers lets you run small services on the edge very easily with a generous Free Tier. I got all that set up and populated on Github Secrets and just let Claude know.
+One of my goals was seeing what letting an agent release to "prod" looks like. That starts with making deployment trivial.
+
+Github Pages for static pages (as is this site) is easy to setup through Actions, and Cloudflare workers lets you run small services on the edge very easily with a generous Free Tier. I got all that set up and populated on Github Secrets and just let Claude know.
 
 - `this repo now has CLOUDFLARE_API_TOKEN and ACCOUNT_ID setup as secrets. add an action to deploy on push to main! go go go`
 
@@ -102,9 +104,10 @@ So, how far can we get with **Claude Code** and **Opus 4.5**?
 - At the end of the day, I managed to build something I put off for years. That is a giant win, full stop. Everything else feels minor.
 - Claude Code on Android is great for ad-hoc and small maintenance tasks, not so much for active new-feature development.
 - Working with Claude as an active teammate works better than treating it as a contractor you dispatch off with large tasks.
+- I'm still learning! There are so many interesting ways to use all these new goodies, so I have not found my optimal flow yet. If there is such a thing...
 
 
 <br>
 
-##### Go on, give **postmarks** a spin [here](https://nk412.com/postmarks)!
+##### Go on, give **Postmarks** a spin [here](https://nk412.com/postmarks)!
 <object data="https://postmarks.nk412.workers.dev?city=NK412&country=%3A%29&symbol=star&palette=7&wear=19&style=label&rotation=8" type="image/svg+xml"></object>
