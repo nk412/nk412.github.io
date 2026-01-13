@@ -17,6 +17,6 @@ Run `make build` to:
 - Python 3.10+
 - `markdown` package (auto-installed via `uv run` if using the script directly)
 
-### See the source
+### See it on GitHub
 
 On [Github](https://github.com/nk412/nk412.github.io)
