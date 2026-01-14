@@ -46,11 +46,13 @@ def build_post(md_path: Path) -> dict | None:
     # Convert to HTML
     html_content = convert_markdown_to_html(content)
 
-    # Add lazy loading for photo posts
+    # Add lazy loading and wider layout for photo posts
+    container_class = ""
     if metadata.get("photos", "false").lower() == "true":
         html_content = html_content.replace("<img ", '<img loading="lazy" ')
+        container_class = " photos"
 
-    full_html = HTML_TEMPLATE.format(title=metadata["title"], content=html_content)
+    full_html = HTML_TEMPLATE.format(title=metadata["title"], content=html_content, container_class=container_class)
 
     # Write output
     out_path = OUT_POSTS / md_path.with_suffix(".html").name

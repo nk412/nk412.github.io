@@ -20,6 +20,11 @@ body {
     padding-bottom: 100px;
 }
 
+.container.photos {
+    grid-column: 2 / 4;
+    max-width: 940px;
+}
+
 /* Typography - Headings */
 h1, h2, h3, h4, h5, h6 {
     font-weight: 600;

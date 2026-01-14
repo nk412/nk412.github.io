@@ -29,7 +29,7 @@ HTML_TEMPLATE = """\
     <link rel="stylesheet" href="../styles.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container{container_class}">
 
     <p><a href="../#posts">&larr; back</a></p>
 
@@ -96,7 +96,7 @@ def build_page(md_content: str) -> str:
     metadata, content = parse_metadata(md_content)
     title = metadata.get("title") or extract_title(content)
     html_content = convert_markdown_to_html(content)
-    return HTML_TEMPLATE.format(title=title, content=html_content)
+    return HTML_TEMPLATE.format(title=title, content=html_content, container_class="")
 
 
 def main():
