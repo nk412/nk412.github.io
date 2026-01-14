@@ -2,3 +2,5 @@
 /index.html
 /posts/*.html
 __pycache__
+.DS_Store
+CLAUDE.md
