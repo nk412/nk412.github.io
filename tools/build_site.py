@@ -5,6 +5,7 @@
 # ///
 """Build static site from markdown posts."""
 
+import re
 import sys
 from pathlib import Path
 
@@ -27,6 +28,10 @@ def build_post(md_path: Path) -> dict | None:
     md_content = md_path.read_text(encoding="utf-8")
     metadata, content = parse_metadata(md_content)
 
+    # Replace @@image:filename with markdown image syntax
+    post_name = md_path.stem
+    content = re.sub(r"@@image:(\S+)", rf"![](../assets/{post_name}/\1)", content)
+
     # Skip drafts entirely
     if metadata.get("draft", "false").lower() == "true":
         print(f"  {md_path.name} (draft, skipped)")
@@ -40,6 +45,11 @@ def build_post(md_path: Path) -> dict | None:
 
     # Convert to HTML
     html_content = convert_markdown_to_html(content)
+
+    # Add lazy loading for photo posts
+    if metadata.get("photos", "false").lower() == "true":
+        html_content = html_content.replace("<img ", '<img loading="lazy" ')
+
     full_html = HTML_TEMPLATE.format(title=metadata["title"], content=html_content)
 
     # Write output
