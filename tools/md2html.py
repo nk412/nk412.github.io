@@ -31,12 +31,12 @@ HTML_TEMPLATE = """\
 <body>
     <div class="container">
 
-    <p><a href="../index.html#posts">&larr; back</a></p>
+    <p><a href="../#posts">&larr; back</a></p>
 
 {content}
 
     <hr>
-    <p><a href="../index.html#posts">&larr; back to posts</a></p>
+    <p><a href="../#posts">&larr; back to posts</a></p>
 
     </div>
 </body>

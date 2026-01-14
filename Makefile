@@ -1,4 +1,4 @@
 .PHONY: build
 
 build:
-	python3 tools/build_site.py
+	uv run tools/build_site.py

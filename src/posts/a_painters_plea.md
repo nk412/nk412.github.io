@@ -1,4 +1,5 @@
 @@title: A Painter's Plea
+@@type: short story
 @@date: 20240510
 
 # A Painter's Plea

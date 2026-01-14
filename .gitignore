@@ -1,3 +1,4 @@
 # Generated files (built by GitHub Actions)
 /index.html
 /posts/*.html
+__pycache__

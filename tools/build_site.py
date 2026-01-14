@@ -22,10 +22,15 @@ OUT_INDEX = ROOT / "index.html"
 REQUIRED_FIELDS = ["title", "date"]
 
 
-def build_post(md_path: Path) -> dict:
-    """Build a single post, return metadata for index."""
+def build_post(md_path: Path) -> dict | None:
+    """Build a single post, return metadata for index. Returns None for drafts."""
     md_content = md_path.read_text(encoding="utf-8")
     metadata, content = parse_metadata(md_content)
+
+    # Skip drafts entirely
+    if metadata.get("draft", "false").lower() == "true":
+        print(f"  {md_path.name} (draft, skipped)")
+        return None
 
     # Validate required fields
     missing = [f for f in REQUIRED_FIELDS if not metadata.get(f)]
@@ -46,6 +51,8 @@ def build_post(md_path: Path) -> dict:
         "title": metadata["title"],
         "date": metadata["date"],
         "filename": out_path.name,
+        "type": metadata.get("type"),
+        "list": metadata.get("list", "true").lower() != "false",
     }
 
 
@@ -61,9 +68,10 @@ def generate_post_list(posts: list[dict]) -> str:
     lines = []
     for post in sorted_posts:
         date_formatted = format_date(post["date"])
+        type_suffix = f' <span style="color: #999;">({post["type"]})</span>' if post["type"] else ""
         lines.append(
             f'        <small style="font-family: monospace; color: #999;">{date_formatted}</small> '
-            f'/ <a href="posts/{post["filename"]}">{post["title"]}</a><br>'
+            f'/ <a href="posts/{post["filename"]}">{post["title"]}</a>{type_suffix}<br>'
         )
     return "\n".join(lines)
 
@@ -88,10 +96,18 @@ def main():
 
     posts = []
     for md_path in md_files:
-        posts.append(build_post(md_path))
+        post = build_post(md_path)
+        if post:
+            posts.append(post)
 
     print("\nBuilding index...")
-    build_index(posts)
+    listed_posts = []
+    for p in posts:
+        if p["list"]:
+            listed_posts.append(p)
+        else:
+            print(f"  Skipping {p['filename']} (list: false)")
+    build_index(listed_posts)
 
     print("\nDone!")
 
