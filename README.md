@@ -16,6 +16,7 @@ Create markdown files in `src/posts/`. Each post requires metadata at the top:
 | `@@type` | any string | Shown in listing as "Title (type)" in gray |
 | `@@list` | true/false | If false, builds page but hides from listing (default: true) |
 | `@@draft` | true/false | If true, skips building entirely (default: false) |
+| `@@photos` | true/false | If true, adds lazy loading to images (default: false) |
 
 ## Building
 
