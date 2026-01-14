@@ -1,7 +1,7 @@
 @@title: Svalbard
 @@date: 20260114
 @@photos: true
-@@list:false
+<!-- @@list:false -->
 
 
 # Svalbard
@@ -25,7 +25,7 @@ In summer, it's a balmy 4 degrees, and you can get to the Nordenskiöld glacier 
 @@image:glacier.avif
 The texture and light reflected off the ice make it hard to judge the distance to the glacier. In this picture, it is two kilometres away.
 
-@@image:glacier_window.avif
+@@image:glacierwindow.avif
 1 AM. You can hear the groans and bangs from the glacier as pieces of ice carve off and fall into the sea.
 
 @@image:wood.avif
@@ -43,7 +43,7 @@ Capitano is a veteran sled husky, now enjoying his years of retirement. Despite 
 Dog walks require a high-calibre rifle.
 
 @@image:walkaway.avif
-Outside of the main settlement of Longyearbyen, you will need an armed guide to do pretty much anything. Polar bears outnumber humans here, and with rising temperatures and melting ice, they tend to move south.
+Outside of the main settlement of Longyearbyen, you will need an armed escort to do pretty much anything. Polar bears outnumber humans here, and with rising temperatures and melting ice, they tend to move south.
 
 @@image:gear.avif
 
@@ -55,7 +55,7 @@ Meltwater brings forth moraine from different geologic ages spanning thousands o
 
 @@image:climb.avif
 @@image:boots.avif
-@@image:leafinice.avif
+@@image:leaf.avif
 
 @@image:ice.avif
 The tiny pressurised air bubbles will make your Bourbon crackle (verified).
@@ -65,9 +65,9 @@ The tiny pressurised air bubbles will make your Bourbon crackle (verified).
 @@image:turns.avif
 Glaciers are just big frozen rivers flowing in super slow-motion. The turns cause torsion, which lead to the deep blue crevasses.
 
-@@image:crevace.avif
+@@image:crevasse.avif
 
-@@image:viewgl.avif
+@@image:view.avif
 
 @@image:belt.avif
 A traditional Sami wilderness belt, a family heirloom.
@@ -81,10 +81,10 @@ _Longyearbyen_. Almost all of it. All front doors are left unlocked throughout t
 @@image:mine.avif
 This used to be the cabin for the workers at the coal mine above. The mine's now abandoned, and the cabin is now accommodation for visitors.
 
-@@image:cyclistgun.avif
+@@image:cyclegun.avif
 Helmet? Nah, bolt-action rifles can save your life.
 
-@@image:redonwhitecabins.avif
+@@image:redwhitecabin.avif
 
 @@image:cotton.avif
 Arctic cotton. The harsh winters destroys most of the local flora, but in summers, they speed-run, thanks to the 24x7 sunlight.
