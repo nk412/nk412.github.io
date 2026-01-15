@@ -28,9 +28,21 @@ def build_post(md_path: Path) -> dict | None:
     md_content = md_path.read_text(encoding="utf-8")
     metadata, content = parse_metadata(md_content)
 
-    # Replace @@image:filename with markdown image syntax
+    # Replace @@image:filename with markdown image syntax (supports comma-separated for side-by-side)
     post_name = md_path.stem
-    content = re.sub(r"@@image:(\S+)", rf"![](../assets/{post_name}/\1)", content)
+    def replace_image(match):
+        files = match.group(1).split(",")
+        if len(files) == 1:
+            return f"![](../assets/{post_name}/{files[0]})"
+        imgs = "".join(f'<img src="../assets/{post_name}/{f}" />' for f in files)
+        return f'<div class="img-row">{imgs}</div>'
+    content = re.sub(r"@@image:(\S+)", replace_image, content)
+    # Replace @@image-sq:filename with square-cropped image
+    content = re.sub(
+        r"@@image-sq:(\S+)",
+        rf'<div class="img-square"><img src="../assets/{post_name}/\1" /></div>',
+        content
+    )
 
     # Skip drafts entirely
     if metadata.get("draft", "false").lower() == "true":

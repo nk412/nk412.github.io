@@ -6,12 +6,14 @@
 
 # Svalbard
 
+![](https://postmarks.nk412.workers.dev?city=Longyearbyen&country=Svalbard&native=Norge&symbol=mountain&palette=6&wear=63&sticker=1&rotation=-5)
+
 @@image:map.avif
 In the high Arctic, maps have an expiry date. Being so close to the magnetic north pole means that North moves around by a few degrees each year.
 
 @@image:boat.avif
 
-@@image:lonecabin.avif
+@@image-sq:lonecabin.avif
 Trapper cabins dot the landscape, but to use them, you need to be resident and a registered hunter.
 
 @@image:bwbirds.avif

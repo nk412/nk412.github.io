@@ -154,6 +154,30 @@ img {
     user-drag: none;
 }
 
+.img-row {
+    display: flex;
+    gap: 0.5em;
+    margin: 0.5em 0;
+}
+
+.img-row img {
+    flex: 1;
+    min-width: 0;
+    object-fit: cover;
+}
+
+.img-square {
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    margin: 0.5em 0;
+}
+
+.img-square img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
 figure {
     margin: 1.5em 0;
 }
@@ -284,6 +308,9 @@ details[open] summary {
     .container {
         max-width: 100%;
         padding: 40px 20px;
+    }
+    .img-row {
+        flex-direction: column;
     }
     details p a {
         display: block;
