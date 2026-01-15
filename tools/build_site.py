@@ -5,7 +5,7 @@
 # ///
 """Build static site from markdown posts."""
 
-import re
+import argparse
 import sys
 from pathlib import Path
 
@@ -13,6 +13,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 
 from md2html import parse_metadata, convert_markdown_to_html, HTML_TEMPLATE
+from directives import process_directives
 
 ROOT = Path(__file__).parent.parent
 SRC_POSTS = ROOT / "src" / "posts"
@@ -23,29 +24,21 @@ OUT_INDEX = ROOT / "index.html"
 REQUIRED_FIELDS = ["title", "date"]
 
 
+def is_true(metadata: dict, key: str) -> bool:
+    """Check if a metadata key is truthy (present without value, or value is 'true')."""
+    return metadata.get(key, "false").lower() == "true"
+
+
 def build_post(md_path: Path) -> dict | None:
     """Build a single post, return metadata for index. Returns None for drafts."""
     md_content = md_path.read_text(encoding="utf-8")
     metadata, content = parse_metadata(md_content)
 
-    # Replace @@image:filename with markdown image syntax (supports comma-separated for side-by-side)
-    post_name = md_path.stem
-    def replace_image(match):
-        files = match.group(1).split(",")
-        if len(files) == 1:
-            return f"![](../assets/{post_name}/{files[0]})"
-        imgs = "".join(f'<img src="../assets/{post_name}/{f}" />' for f in files)
-        return f'<div class="img-row">{imgs}</div>'
-    content = re.sub(r"@@image:(\S+)", replace_image, content)
-    # Replace @@image-sq:filename with square-cropped image
-    content = re.sub(
-        r"@@image-sq:(\S+)",
-        rf'<div class="img-square"><img src="../assets/{post_name}/\1" /></div>',
-        content
-    )
+    # Process inline directives (::image:, ::image-sq:, etc.)
+    content = process_directives(content, md_path.stem)
 
     # Skip drafts entirely
-    if metadata.get("draft", "false").lower() == "true":
+    if is_true(metadata, "draft"):
         print(f"  {md_path.name} (draft, skipped)")
         return None
 
@@ -58,11 +51,12 @@ def build_post(md_path: Path) -> dict | None:
     # Convert to HTML
     html_content = convert_markdown_to_html(content)
 
-    # Add lazy loading and wider layout for photo posts
-    container_class = ""
-    if metadata.get("photos", "false").lower() == "true":
+    # Lazy loading for images
+    if is_true(metadata, "lazy"):
         html_content = html_content.replace("<img ", '<img loading="lazy" ')
-        container_class = " photos"
+
+    # Wider layout
+    container_class = " wide" if is_true(metadata, "wide") else ""
 
     full_html = HTML_TEMPLATE.format(title=metadata["title"], content=html_content, container_class=container_class)
 
@@ -76,7 +70,7 @@ def build_post(md_path: Path) -> dict | None:
         "date": metadata["date"],
         "filename": out_path.name,
         "type": metadata.get("type"),
-        "list": metadata.get("list", "true").lower() != "false",
+        "unlisted": is_true(metadata, "unlisted"),
     }
 
 
@@ -109,7 +103,7 @@ def build_index(posts: list[dict]) -> None:
     print(f"  index.html updated with {len(posts)} post(s)")
 
 
-def main():
+def main(include_unlisted: bool = False):
     print("Building posts...")
     OUT_POSTS.mkdir(exist_ok=True)
 
@@ -127,14 +121,23 @@ def main():
     print("\nBuilding index...")
     listed_posts = []
     for p in posts:
-        if p["list"]:
+        if not p["unlisted"]:
             listed_posts.append(p)
+        elif include_unlisted:
+            listed_posts.append({**p, "type": "unlisted"})
         else:
-            print(f"  Skipping {p['filename']} (list: false)")
+            print(f"  Skipping {p['filename']} (unlisted)")
     build_index(listed_posts)
 
     print("\nDone!")
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Build static site")
+    parser.add_argument(
+        "--include-unlisted",
+        action="store_true",
+        help="Include posts with list: false in the index",
+    )
+    args = parser.parse_args()
+    main(include_unlisted=args.include_unlisted)

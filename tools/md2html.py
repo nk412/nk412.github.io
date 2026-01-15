@@ -55,10 +55,12 @@ def parse_metadata(md_content: str) -> tuple[dict[str, str], str]:
 
     for i, line in enumerate(lines):
         if line.startswith("@@"):
-            # Parse @@key: value or @@key value
-            match = re.match(r"^@@(\w+)[:\s]\s*(.+)$", line)
+            # Parse @@key: value, @@key value, or @@key (boolean)
+            match = re.match(r"^@@(\w+)(?:[:\s]\s*(.+))?$", line)
             if match:
-                metadata[match.group(1).lower()] = match.group(2).strip()
+                key = match.group(1).lower()
+                value = match.group(2).strip() if match.group(2) else "true"
+                metadata[key] = value
             content_start = i + 1
         elif line.strip() == "":
             # Skip blank lines between metadata and content
