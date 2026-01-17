@@ -32,12 +32,12 @@ HTML_TEMPLATE = """\
 <body>
     <div class="container{container_class}">
 
-    <p><a href="../#posts">&larr; back</a></p>
+    <p><a href="../#{back_section}">&larr; back</a></p>
 
 {content}
 
     <hr>
-    <p><a href="../#posts">&larr; back to posts</a></p>
+    <p><a href="../#{back_section}">&larr; back to {back_section}</a></p>
 
     </div>
 </body>
