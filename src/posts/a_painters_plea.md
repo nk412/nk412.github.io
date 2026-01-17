@@ -4,7 +4,7 @@
 
 # A Painter's Plea
 
-<small>_Originally published on [SFS Publishing](https://www.scifishorts.co/premium/a-painters-plea/92f25140-908f-4ac0-86df-559597e16793), April 2024_</small>
+_Originally published on [SFS Publishing](https://www.scifishorts.co/premium/a-painters-plea/92f25140-908f-4ac0-86df-559597e16793), April 2024_
 
 <br>
 
