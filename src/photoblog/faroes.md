@@ -1,7 +1,6 @@
 @@title: The Faroes
-@@date: 20260114
+@@date: 20250701
 @@lazy
-@@unlisted
 
 
 # The Faroes

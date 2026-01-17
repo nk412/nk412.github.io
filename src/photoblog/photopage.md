@@ -1,5 +1,5 @@
-@@title:photopage
-@@date:20260115
+@@title: Style guide
+@@date:19700101
 @@unlisted
 
 # A photo page

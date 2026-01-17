@@ -285,7 +285,7 @@ details[open] summary {
     display: block;
 }
 
-#about {
+#about, #photoblog {
     max-width: 500px;
 }
 
@@ -294,7 +294,7 @@ details[open] summary {
     color: #666;
 }
 
-#projects, #posts {
+#projects, #posts, #photoblog {
     line-height: 1.5;
 }
 

@@ -19,6 +19,8 @@ from directives import process_directives
 ROOT = Path(__file__).parent.parent
 SRC_POSTS = ROOT / "src" / "posts"
 OUT_POSTS = ROOT / "posts"
+SRC_PHOTOBLOG = ROOT / "src" / "photoblog"
+OUT_PHOTOBLOG = ROOT / "photoblog"
 SRC_INDEX = ROOT / "src" / "index.html"
 OUT_INDEX = ROOT / "index.html"
 
@@ -77,13 +79,14 @@ def transform_content(post: Post) -> Post:
     return Post(path=post.path, metadata=post.metadata, content=content)
 
 
-def render_html(post: Post) -> str:
+def render_html(post: Post, back_section: str = "posts") -> str:
     """Apply HTML template to post."""
     container_class = " wide" if is_true(post.metadata, "wide") else ""
     return HTML_TEMPLATE.format(
         title=post.metadata["title"],
         content=post.content,
         container_class=container_class,
+        back_section=back_section,
     )
 
 
@@ -110,7 +113,7 @@ def format_date(date_str: str) -> str:
     return f"{date_str[6:8]}/{date_str[4:6]}/{date_str[:4]}"
 
 
-def generate_post_list(posts: list[dict]) -> str:
+def generate_post_list(posts: list[dict], url_prefix: str = "posts") -> str:
     """Generate HTML for post list, sorted by date descending."""
     sorted_posts = sorted(posts, key=lambda p: p["date"], reverse=True)
     lines = []
@@ -119,30 +122,33 @@ def generate_post_list(posts: list[dict]) -> str:
         type_suffix = f' <span style="color: #999;">({post["type"]})</span>' if post["type"] else ""
         lines.append(
             f'        <small style="font-family: monospace; color: #999;">{date_formatted}</small> '
-            f'/ <a href="posts/{post["filename"]}">{post["title"]}</a>{type_suffix}<br>'
+            f'/ <a href="{url_prefix}/{post["filename"]}">{post["title"]}</a>{type_suffix}<br>'
         )
     return "\n".join(lines)
 
 
-def build_index(posts: list[dict]) -> None:
+def build_index(posts: list[dict], photoblog: list[dict]) -> None:
     """Build index.html from template."""
     template = SRC_INDEX.read_text(encoding="utf-8")
     post_list = generate_post_list(posts)
+    photoblog_list = generate_post_list(photoblog, url_prefix="photoblog")
     html = template.replace("<!-- POSTS -->", post_list + "\n")
+    html = html.replace("<!-- PHOTOBLOG -->", photoblog_list + "\n")
     OUT_INDEX.write_text(html, encoding="utf-8")
-    print(f"  index.html updated with {len(posts)} post(s)")
+    print(f"  index.html updated with {len(posts)} post(s) and {len(photoblog)} photoblog(s)")
 
 
 # --- Main ---
 
-def main(include_unlisted: bool = False):
-    print("Building posts...")
-    OUT_POSTS.mkdir(exist_ok=True)
+def build_posts(src_dir: Path, out_dir: Path, label: str, back_section: str = "posts") -> list[dict]:
+    """Build posts from a source directory. Returns index entries."""
+    print(f"Building {label}...")
+    out_dir.mkdir(exist_ok=True)
 
-    md_files = list(SRC_POSTS.glob("*.md"))
+    md_files = list(src_dir.glob("*.md"))
     if not md_files:
-        print("No markdown files found in src/posts/")
-        sys.exit(1)
+        print(f"  No markdown files found in {src_dir}")
+        return []
 
     index_entries = []
     for md_path in md_files:
@@ -158,26 +164,44 @@ def main(include_unlisted: bool = False):
         post = transform_content(post)
 
         # Render
-        html = render_html(post)
+        html = render_html(post, back_section=back_section)
 
         # Write
-        out_path = OUT_POSTS / md_path.with_suffix(".html").name
+        out_path = out_dir / md_path.with_suffix(".html").name
         write_post(html, out_path)
         print(f"  {md_path.name} -> {out_path.name}")
 
         # Collect for index
         index_entries.append(post_to_index_entry(post, out_path.name))
 
-    print("\nBuilding index...")
-    listed_posts = []
-    for entry in index_entries:
+    return index_entries
+
+
+def filter_listed(entries: list[dict], include_unlisted: bool) -> list[dict]:
+    """Filter entries based on unlisted status."""
+    listed = []
+    for entry in entries:
         if not entry["unlisted"]:
-            listed_posts.append(entry)
+            listed.append(entry)
         elif include_unlisted:
-            listed_posts.append({**entry, "type": "unlisted"})
+            listed.append({**entry, "type": "unlisted"})
         else:
             print(f"  Skipping {entry['filename']} (unlisted)")
-    build_index(listed_posts)
+    return listed
+
+
+def main(include_unlisted: bool = False):
+    # Build posts
+    post_entries = build_posts(SRC_POSTS, OUT_POSTS, "posts", back_section="posts")
+
+    # Build photoblog
+    photoblog_entries = build_posts(SRC_PHOTOBLOG, OUT_PHOTOBLOG, "photoblog", back_section="photoblog")
+
+    # Build index
+    print("\nBuilding index...")
+    listed_posts = filter_listed(post_entries, include_unlisted)
+    listed_photoblog = filter_listed(photoblog_entries, include_unlisted)
+    build_index(listed_posts, listed_photoblog)
 
     print("\nDone!")
 
