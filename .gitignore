@@ -1,7 +1,9 @@
 # Generated files (built by GitHub Actions)
 /index.html
 /posts/*.html
+/photoblog/*.html
 __pycache__
 .DS_Store
+# others to be ignored
 CLAUDE.md
 other/
