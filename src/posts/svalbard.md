@@ -1,6 +1,5 @@
 @@title: Svalbard
 @@date: 20260114
-@@wide
 @@lazy
 @@unlisted
 
@@ -11,6 +10,7 @@
 In the high Arctic, maps have an expiry date. Being so close to the magnetic north pole means that North moves around by a few degrees each year.
 
 ::image:boat.avif
+Crossing the _Sassenfjorden_, somewhere between the main settlement of Longyearbyen and the now abandoned mining town of Pyramiden.
 
 ::image-sq:lonecabin.avif
 Trapper cabins dot the landscape, but to use them, you need to be resident and a registered hunter.
