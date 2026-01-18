@@ -1,6 +1,7 @@
 @@title: Svalbard
 @@date: 20240801
 @@lazy
+@@wide
 
 
 # Svalbard
@@ -70,7 +71,7 @@ Glaciers are just big frozen rivers flowing in super slow-motion. The turns caus
 ::image:view.avif
 
 ::image:belt.avif
-A traditional Sami wilderness belt, a family heirloom.
+A traditional Sami wilderness belt. In this case, a family heirloom.
 
 ::image:longyearbyen.avif
 _Longyearbyen_. Almost all of it. All front doors are left unlocked throughout the year, if you suddenly need to take refuge from a large white furry mammal.

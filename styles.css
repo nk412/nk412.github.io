@@ -22,7 +22,7 @@ body {
 
 .container.wide {
     grid-column: 2 / 4;
-    max-width: 940px;
+    max-width: 900px;
 }
 
 /* Typography - Headings */
@@ -178,6 +178,17 @@ img {
     object-fit: cover;
 }
 
+.img-grid {
+    columns: 2;
+    column-gap: 0.5em;
+    margin: 0.5em 0;
+}
+
+.img-grid img {
+    width: 100%;
+    margin-bottom: 0.5em;
+}
+
 figure {
     margin: 1.5em 0;
 }
@@ -311,6 +322,9 @@ details[open] summary {
     }
     .img-row {
         flex-direction: column;
+    }
+    .img-grid {
+        columns: 1;
     }
     details p a {
         display: block;

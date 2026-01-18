@@ -41,11 +41,26 @@ def image_sq(args: str, post_name: str, caption: str = None) -> str:
     return f'<div class="img-square">{img}</div>'
 
 
+def image_grid(args: str, post_name: str, caption: str = None) -> str:
+    """2-column masonry grid for 4 images.
+
+    Usage:
+        ::image-grid:tl.avif,tr.avif,bl.avif,br.avif
+    """
+    files = args.split(",")
+    imgs = "".join(f'<img src="../assets/{post_name}/{f}" />' for f in files)
+    grid = f'<div class="img-grid">{imgs}</div>'
+    if caption:
+        return f"<figure>{grid}<figcaption>{caption}</figcaption></figure>"
+    return grid
+
+
 # Registry: directive name -> handler function
 # Each handler takes (args: str, post_name: str, caption: str | None) -> str
 DIRECTIVES = {
     "image": image,
     "image-sq": image_sq,
+    "image-grid": image_grid,
 }
 
 
