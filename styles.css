@@ -305,7 +305,8 @@ details[open] summary {
     color: #666;
 }
 
-#projects, #posts, #photoblog {
+/* Listing items with extra line-height */
+.listing {
     line-height: 1.5;
 }
 

@@ -116,7 +116,7 @@ def format_date(date_str: str) -> str:
 def generate_post_list(posts: list[dict], url_prefix: str = "posts") -> str:
     """Generate HTML for post list, sorted by date descending."""
     sorted_posts = sorted(posts, key=lambda p: p["date"], reverse=True)
-    lines = []
+    lines = ['        <div class="listing">']
     for post in sorted_posts:
         date_formatted = format_date(post["date"])
         type_suffix = f' <span style="color: #999;">({post["type"]})</span>' if post["type"] else ""
@@ -124,6 +124,7 @@ def generate_post_list(posts: list[dict], url_prefix: str = "posts") -> str:
             f'        <small style="font-family: monospace; color: #999;">{date_formatted}</small> '
             f'/ <a href="{url_prefix}/{post["filename"]}">{post["title"]}</a>{type_suffix}<br>'
         )
+    lines.append('        </div>')
     return "\n".join(lines)
 
 
