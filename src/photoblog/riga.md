@@ -34,6 +34,8 @@ Folk music is a big part of Latvian culture, with most taking part in singing, d
 
 ::image:boys.avif
 
+::image:hat.avif
+
 ::image:step.avif
 May 4th is the anniversary of the The Day of Restoration of Latvian Independence, which marks the second time they gained independence from the Soviets, in 1990. Folk traditions and craftsmanship represents the identity that persevered through hundreds of years of various rules and occuptations.
 
@@ -44,3 +46,4 @@ May 4th is the anniversary of the The Day of Restoration of Latvian Independence
 ::image:circle1.avif
 ::image:circle2.avif
 
+::image:apartments.avif

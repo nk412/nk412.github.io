@@ -22,7 +22,7 @@ body {
 
 .container.wide {
     grid-column: 2 / 4;
-    max-width: 940px;
+    max-width: 900px;
 }
 
 /* Typography - Headings */
