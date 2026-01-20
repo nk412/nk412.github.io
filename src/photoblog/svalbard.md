@@ -1,6 +1,5 @@
 @@title: Svalbard
 @@date: 20240801
-@@lazy
 @@wide
 
 
