@@ -1,6 +1,5 @@
 @@title: Riga
 @@date: 20250401
-@@lazy
 @@wide
 
 # Riga, Latvia

@@ -1,6 +1,5 @@
 @@title: The Faroes
 @@date: 20250701
-@@lazy
 @@wide
 
 
