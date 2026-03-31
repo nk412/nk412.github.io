@@ -13,7 +13,7 @@ from pathlib import Path
 # Add tools directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent))
 
-from md2html import parse_metadata, convert_markdown_to_html, HTML_TEMPLATE
+from md2html import parse_metadata, convert_markdown_to_html, inject_date, HTML_TEMPLATE
 from directives import process_directives
 
 ROOT = Path(__file__).parent.parent
@@ -82,9 +82,10 @@ def transform_content(post: Post) -> Post:
 def render_html(post: Post, back_section: str = "posts") -> str:
     """Apply HTML template to post."""
     container_class = " wide" if is_true(post.metadata, "wide") else ""
+    content = inject_date(post.content, format_date(post.metadata["date"]))
     return HTML_TEMPLATE.format(
         title=post.metadata["title"],
-        content=post.content,
+        content=content,
         container_class=container_class,
         back_section=back_section,
     )
