@@ -94,12 +94,30 @@ def convert_markdown_to_html(md_content: str) -> str:
     return md.convert(md_content)
 
 
+def inject_date(html_content: str, date: str) -> str:
+    """Inject date into content: after <h1> if present, otherwise prepend."""
+    if not date:
+        return html_content
+    h1_match = re.search(r"<h1([^>]*)>(.*?)</h1>", html_content)
+    if h1_match:
+        new_h1 = f'<h1{h1_match.group(1)} style="margin-bottom: 0;">{h1_match.group(2)}</h1>'
+        date_html = f'<p style="margin-top: -0.4em;"><small style="font-family: monospace; color: #999;">{date}</small></p>'
+        replacement = new_h1 + "\n" + date_html
+        return html_content[:h1_match.start()] + replacement + html_content[h1_match.end():]
+    else:
+        date_html = f'<p><small style="font-family: monospace; color: #999;">{date}</small></p>'
+        return date_html + "\n" + html_content
+
+
 def build_page(md_content: str) -> str:
     """Build full HTML page from markdown content."""
     metadata, content = parse_metadata(md_content)
     title = metadata.get("title") or extract_title(content)
     html_content = convert_markdown_to_html(content)
-    return HTML_TEMPLATE.format(title=title, content=html_content, container_class="")
+    raw_date = metadata.get("date", "")
+    date = f"{raw_date[6:8]}/{raw_date[4:6]}/{raw_date[:4]}" if len(raw_date) == 8 else raw_date
+    html_content = inject_date(html_content, date)
+    return HTML_TEMPLATE.format(title=title, content=html_content, container_class="", back_section="posts")
 
 
 def main():
