@@ -3,7 +3,7 @@
 @@wide
 
 
-# Revisiting Bristol
+# Bristol
 
 ::image:harborside2.avif(Harbourside)
 ::image:park.avif(Looking up Park Street)
