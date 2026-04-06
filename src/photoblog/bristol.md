@@ -1,4 +1,4 @@
-@@title: Revisiting Bristol
+@@title: Bristol
 @@date: 20260405
 @@wide
 
