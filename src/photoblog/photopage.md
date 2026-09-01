@@ -1,6 +1,7 @@
 @@title: Style guide
 @@date:19700101
 @@unlisted
+@@essay
 
 # A photo page
 To demonstrate custom markdown directives to aid with designing a photo-essay or blog.
@@ -27,3 +28,24 @@ You can also take an image and center and square it up. You don't need to edit a
 
 
 This would be a conclusion.
+
+#### Magazine-style directives
+For photo essays in the spirit of print magazines. A kicker and dek set up a piece like this:
+
+::kicker(PHOTO ESSAY · STYLE GUIDE)
+### The long way home
+::dek(A standfirst sits under the title in larger muted italics, easing the reader in before the essay begins.)
+
+::dropcap(Drop caps mark the start of a section. The first letter is set large in the display font, purely with CSS, and the rest of the paragraph wraps around it the way an opening paragraph would in print.)
+
+::pullquote(A pull quote lifts a striking line out of the essay and sets it big.)
+
+A full-bleed image runs edge-to-edge of the screen, breaking out of the text column. Requires the `@@essay` flag, which centers the page column:
+
+::bleed:walk.avif(Full-bleed, with the caption held back to the text column width.)
+
+And a side caption sits in the margin next to the photo, stacking below it on mobile:
+
+::image-side:negroni.avif(A side caption, aligned to the bottom of the image like a plate note.)
+
+There is also a `@@theme: dark` flag for night photography, which flips the page to a dark background.

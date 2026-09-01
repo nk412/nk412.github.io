@@ -29,7 +29,7 @@ HTML_TEMPLATE = """\
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Outfit:wght@600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../styles.css">
 </head>
-<body>
+<body{body_class}>
     <div class="container{container_class}">
 
     <p><a href="../#{back_section}">&larr; back</a></p>
@@ -117,7 +117,7 @@ def build_page(md_content: str) -> str:
     raw_date = metadata.get("date", "")
     date = f"{raw_date[6:8]}/{raw_date[4:6]}/{raw_date[:4]}" if len(raw_date) == 8 else raw_date
     html_content = inject_date(html_content, date)
-    return HTML_TEMPLATE.format(title=title, content=html_content, container_class="", back_section="posts")
+    return HTML_TEMPLATE.format(title=title, content=html_content, container_class="", body_class="", back_section="posts")
 
 
 def main():

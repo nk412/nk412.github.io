@@ -338,3 +338,140 @@ details[open] summary {
         font-size: 0.9em;
     }
 }
+
+/* --- Magazine / photo-essay directives --- */
+
+/* @@essay: centered single column so full-bleed math works on any screen */
+body.essay {
+    display: block;
+}
+
+body.essay .container {
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+
+/* Kicker: letterspaced eyebrow label above a headline */
+.kicker {
+    font-family: 'Outfit', sans-serif;
+    font-size: 0.8em;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: #999;
+    margin-bottom: 0;
+}
+
+.kicker + h1 {
+    margin-top: 0.2em;
+}
+
+/* Dek: standfirst paragraph under the title */
+.dek {
+    font-size: 1.25em;
+    font-style: italic;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Pull quote: large display-font line lifted from the essay */
+.pullquote {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 1.8em;
+    line-height: 1.3;
+    margin: 1.6em 0;
+    padding: 0.8em 0;
+    border-top: 1px solid #DDDDDD;
+    border-bottom: 1px solid #DDDDDD;
+}
+
+/* Drop cap on an opening paragraph */
+.dropcap::first-letter {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+    font-size: 3.4em;
+    float: left;
+    line-height: 0.85;
+    padding: 0.06em 0.08em 0 0;
+}
+
+/* Full-bleed image: edge-to-edge of the viewport (essay pages) */
+body.essay .bleed {
+    width: 100vw;
+    margin-left: calc(50% - 50vw);
+    margin-right: calc(50% - 50vw);
+}
+
+.bleed img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.bleed figcaption {
+    max-width: 700px;
+    margin: 0.5em auto 0;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* Side caption: caption sits in the margin beside the photo */
+figure.img-side {
+    display: grid;
+    grid-template-columns: 1fr 150px;
+    gap: 1em;
+    align-items: end;
+}
+
+figure.img-side figcaption {
+    margin-top: 0;
+}
+
+/* Dark theme for night / aurora essays: @@theme: dark */
+body.theme-dark {
+    background-color: #141414;
+    color: #DDDDDD;
+}
+
+body.theme-dark a {
+    color: #AAAAAA;
+}
+
+body.theme-dark a:hover {
+    color: #141414;
+    background-color: #DDDDDD;
+}
+
+body.theme-dark figcaption,
+body.theme-dark .dek,
+body.theme-dark small,
+body.theme-dark blockquote {
+    color: #999999;
+}
+
+body.theme-dark hr {
+    background-color: #333333;
+}
+
+body.theme-dark .pullquote {
+    border-color: #333333;
+}
+
+body.theme-dark code,
+body.theme-dark pre {
+    background-color: #222222;
+}
+
+@media (max-width: 600px) {
+    figure.img-side {
+        display: block;
+    }
+    figure.img-side figcaption {
+        margin-top: 0.5em;
+    }
+    .pullquote {
+        font-size: 1.4em;
+    }
+}

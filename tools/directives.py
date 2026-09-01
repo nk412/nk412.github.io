@@ -55,13 +55,83 @@ def image_grid(args: str, post_name: str, caption: str = None) -> str:
     return grid
 
 
+def bleed(args: str, post_name: str, caption: str = None) -> str:
+    """Full-bleed image, edge-to-edge on essay pages (requires @@essay).
+
+    Usage:
+        ::bleed:photo.avif
+        ::bleed:photo.avif(Optional caption)
+    """
+    img = f'<img src="../assets/{post_name}/{args}" />'
+    if caption:
+        return f'<figure class="bleed">{img}<figcaption>{caption}</figcaption></figure>'
+    return f'<figure class="bleed">{img}</figure>'
+
+
+def image_side(args: str, post_name: str, caption: str = None) -> str:
+    """Image with its caption set in the side margin (stacks on mobile).
+
+    Usage:
+        ::image-side:photo.avif(Caption text)
+    """
+    img = f'<img src="../assets/{post_name}/{args}" />'
+    if caption:
+        return f'<figure class="img-side">{img}<figcaption>{caption}</figcaption></figure>'
+    return f"<figure>{img}</figure>"
+
+
+def kicker(args: str, post_name: str, caption: str = None) -> str:
+    """Small letterspaced label above a headline (eyebrow).
+
+    Usage:
+        ::kicker(PHOTO ESSAY · SVALBARD)
+    """
+    return f'<p class="kicker">{caption or args or ""}</p>'
+
+
+def dek(args: str, post_name: str, caption: str = None) -> str:
+    """Standfirst: the large italic intro paragraph under the title.
+
+    Usage:
+        ::dek(One or two scene-setting sentences.)
+    """
+    return f'<p class="dek">{caption or args or ""}</p>'
+
+
+def pullquote(args: str, post_name: str, caption: str = None) -> str:
+    """Large display-font quote lifted from the essay.
+
+    Usage:
+        ::pullquote(A striking line from the text.)
+    """
+    return f'<aside class="pullquote">{caption or args or ""}</aside>'
+
+
+def dropcap(args: str, post_name: str, caption: str = None) -> str:
+    """Paragraph whose first letter is set as a large drop cap.
+
+    Usage:
+        ::dropcap(Opening paragraph text...)
+    """
+    return f'<p class="dropcap">{caption or args or ""}</p>'
+
+
 # Registry: directive name -> handler function
 # Each handler takes (args: str, post_name: str, caption: str | None) -> str
 DIRECTIVES = {
     "image": image,
     "image-sq": image_sq,
     "image-grid": image_grid,
+    "bleed": bleed,
+    "image-side": image_side,
+    "kicker": kicker,
+    "dek": dek,
+    "pullquote": pullquote,
+    "dropcap": dropcap,
 }
+
+# Directives that require a file argument; left untouched if none is given
+FILE_DIRECTIVES = {"image", "image-sq", "image-grid", "bleed", "image-side"}
 
 
 def process_directives(content: str, post_name: str) -> str:
@@ -74,7 +144,10 @@ def process_directives(content: str, post_name: str) -> str:
         name, args, caption = match.group(1), match.group(2), match.group(3)
         handler = DIRECTIVES.get(name)
         if handler:
+            if name in FILE_DIRECTIVES and not args:
+                return match.group(0)  # File directives need a file
             return handler(args, post_name, caption)
         return match.group(0)  # Leave unknown directives unchanged
 
-    return re.sub(r"::([a-z-]+):([^\s(]+)(?:\(([^)]+)\))?", replace, content)
+    # :args is now optional, so text directives can be written ::name(text)
+    return re.sub(r"::([a-z-]+)(?::([^\s(]+))?(?:\(([^)]+)\))?", replace, content)
