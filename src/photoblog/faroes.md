@@ -3,7 +3,6 @@
 @@essay
 
 
-::kicker(PHOTO ESSAY · FAROE ISLANDS)
 # The Faroes
 
 ::image-side:nolsoy.avif(Nólsoy)
