@@ -149,5 +149,10 @@ def process_directives(content: str, post_name: str) -> str:
             return handler(args, post_name, caption)
         return match.group(0)  # Leave unknown directives unchanged
 
-    # :args is now optional, so text directives can be written ::name(text)
-    return re.sub(r"::([a-z-]+)(?::([^\s(]+))?(?:\(([^)]+)\))?", replace, content)
+    # :args is now optional, so text directives can be written ::name(text).
+    # Captions may contain one level of nested parentheses, e.g. (Bond (2021) died here).
+    return re.sub(
+        r"::([a-z-]+)(?::([^\s(]+))?(?:\(((?:[^()]|\([^()]*\))+)\))?",
+        replace,
+        content,
+    )
