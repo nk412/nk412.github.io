@@ -24,12 +24,12 @@ Before satellites, coastal stations like these were essential for ship-to-land c
 
 ::image:air.avif
 
-::pullquote(Polar air is some of the cleanest in the world.)
-There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapor. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
+There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
 
-## The ice
+## The Ice
 
-::dropcap(Most of Greenland is neither _green_ nor _land_. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for 100,000 years.)
+Most of Greenland is neither _green_ nor _land_. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for 100,000 years.
 
 It works like this: make it snow. Keep temperatures low to not let it melt. Add more snow on top. The pressure turns the lower layers of snow into ice. Repeat for a few thousand years and voilà, you have the Greenlandic ice sheet.
 
