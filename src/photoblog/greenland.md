@@ -17,3 +17,7 @@ In the 1970s, the Danish government decided that it was too expensive to run lit
 The colours used to tell you what each building was for. Red was for trade, and churches and schools, yellow was for the clinic, green was for the electricians and mechanics and blue was everything to do with the sea. It's been decades since this was ever followed, but you still might see the general hospital in bright yellow.
 
 ::image:qhouse1.avif,qhouse2.avif(Summer houses at Qoornoq. The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. The snowfall that made this ice fell thousands of years ago.)
+
+::image:radio.avif(A VHF radio station at Nuuk, as a lone iceberg drifts by.)
+
+Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched as close to the water as possible.
