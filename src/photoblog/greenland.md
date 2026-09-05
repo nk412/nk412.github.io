@@ -23,7 +23,7 @@ The colours used to tell you what each building was for. Red was for trade, chur
 
 Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched high and close to the water.
 
-::image:air.avif
+::image:air.avif(Qoornoq. A fifteen passenger boat idles like a toy in a bathtub.)
 
 There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
 
@@ -37,8 +37,8 @@ At this point, the ice begins to _flow_ in slow motion. Like pancake batter slow
 
 Sometimes, the glacier meets the sea in the form of meltwater falls.
 
-::image:falls.avif
+::image:falls.avif(Meltwater falls off the Qingag mountain)
 
 And other times, it forms a glacial front, and in a tad dramatic fashion, drops enormous chunks of ice into the sea.
 
-::bleed:bergsboat.avif(The Ilulissat icefjord. A boat on the bottom right for scale)
+::bleed:bergsboat.avif(The Ilulissat Icefjord. A boat on the bottom right for scale)
