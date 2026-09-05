@@ -14,7 +14,7 @@ Create markdown files in `src/posts/`. Each post requires metadata at the top:
 | Key | Values | Description |
 |-----|--------|-------------|
 | `@@type` | any string | Shown in listing as "Title (type)" in gray |
-| `@@list` | true/false | If false, builds page but hides from listing (default: true) |
+| `@@unlisted` | flag | Builds the page but hides it from the listing |
 | `@@draft` | true/false | If true, skips building entirely (default: false) |
 | `@@photos` | true/false | If true, adds lazy loading to images (default: false) |
 | `@@essay` | flag | Centered single-column layout; enables `::bleed:` full-width images |
@@ -35,6 +35,14 @@ Inline `::name:args(caption)` patterns in the markdown body:
 | `::dek` | `::dek(Intro text.)` | Standfirst: large italic intro paragraph |
 | `::pullquote` | `::pullquote(A striking line.)` | Big display-font quote with rules above/below |
 | `::dropcap` | `::dropcap(Opening paragraph...)` | Large CSS drop cap on the first letter |
+
+## Photos
+
+Convert originals to AVIF (2000px on the short edge) into `assets/<post>/`:
+
+```
+uv run tools/to_avif.py <post> photo.jpg [more.jpg ...]
+```
 
 ## Building
 
