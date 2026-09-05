@@ -36,6 +36,6 @@ It works as so: snow falls but doesn't melt. More snow falls on top. The pressur
 
 At this point, the ice begins to _flow_. Like pancake batter slowly spreading out over a pan, the ice flows out towards the sea.
 
+::image:falls.avif
 
-
-
+::image:bergsboat.avif
