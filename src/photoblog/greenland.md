@@ -23,3 +23,7 @@ The colours used to tell you what each building was for. Red was for trade, and 
 ::image:radio.avif(A VHF radio station at Nuuk, as a lone iceberg drifts by.)
 
 Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched as close to the water as possible.
+
+::image:air.avif
+
+Polar air is some of the cleanest air in the world. There are no significant sources of smoke and no trees to produce pollen. The result is a pristine view as far as the horizons allow. The human mind is accustomed to judging distances based on how hazy they appear. Over here, miscalculations are common for the inexperienced skipper.
