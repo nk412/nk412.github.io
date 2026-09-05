@@ -42,3 +42,9 @@ Sometimes, the glacier meets the sea in the form of meltwater falls.
 And other times, it forms a glacial front, and in a tad dramatic fashion, drops enormous chunks of ice into the sea.
 
 ::bleed:bergsboat.avif(The Ilulissat Icefjord. A boat on the bottom right for scale)
+
+::image:map.avif
+
+::image:boatwindow.avif
+
+::image:hugeberg.avif
