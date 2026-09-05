@@ -27,3 +27,15 @@ Before satellites, coastal stations like these were essential for ship-to-land c
 ::image:air.avif
 
 Polar air is some of the cleanest air in the world. There are no significant sources of smoke and no trees to produce pollen. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+
+## The ice
+
+Most of Greenland is neither green nor land. It is one singular piece of ice, up to three kilometers thick, that has been sitting over the rock for a hundred thousand years.
+
+It works as so: snow falls but doesn't melt. More snow falls on top. The pressure turns the lower layers of snow into ice. Repeat for a few thousand years and you have the Greenlandic ice sheet.
+
+At this point, the ice begins to _flow_. Like pancake batter slowly spreading out over a pan, the ice flows out towards the sea.
+
+
+
+
