@@ -26,4 +26,4 @@ Before satellites, coastal stations like these were essential for ship-to-land c
 
 ::image:air.avif
 
-Polar air is some of the cleanest air in the world. There are no significant sources of smoke and no trees to produce pollen. we subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+Polar air is some of the cleanest air in the world. There are no significant sources of smoke and no trees to produce pollen. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
