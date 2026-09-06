@@ -60,18 +60,16 @@ What you're seeing is, as the expression goes, _just the tip of the iceberg_. Ni
 
 ::pullquote(The Jakobshavn glacier is the likely birthplace of the Titanic's killer.)
 
-::image-sq:boatwindow.avif
+::image:boatwindow.avif
 
 These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their center of gravity shifts, and sometimes, they roll over, causing enormous tides and coastal tsunamis.
 
-::image:map.avif
+::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
+In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove like patterns that almost seems biological. The berg on the right has very recently rolled over.
 
-
-
-::image:street.avif
-
-::image:texture.avif
+::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
+In the quiet town of Ilullisat, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
 
 ::image:man.avif
 
-::image:church.avif
+::image:church.avif(Zion's church is a historic Lutheran church, where little bergs lick the shore.)
