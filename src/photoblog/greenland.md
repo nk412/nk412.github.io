@@ -12,7 +12,7 @@
 
 ::dropcap(In the 1970s, the Danish government decided that it was too expensive to run little settlements, and so forced everyone out to the bigger towns. Today, Qoornoq is officially an abandoned settlement, which means no new houses can be built, and the old ones have become summer homes.)
 
-::image:qhouse1.avif(A house at Qoornoq. It may not look it, but the water is a few degrees below zero.)
+::image:qhouse1.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.)
 ::image:qhouse2.avif(The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
 
 ::image:sermitsiaq.avif(The coloured houses of old Nuuk, facing Sermitsiaq.)
@@ -29,7 +29,7 @@ There are no significant sources of smoke and no trees to produce pollen. The ai
 
 ::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
 
-We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. **That mountain is not close.**
 
 <br>
 <br>
@@ -44,7 +44,7 @@ At this point, the ice begins to _flow_ in slow motion. Like pancake batter slow
 
 Sometimes, the glacier meets the sea in the form of pretty meltwater falls.
 
-::image:falls.avif(Meltwater falls off the Qingag mountain.)
+::image:falls.avif(The Qingaq mountain and the falls below.)
 
 And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ chunks of ice into the sea.
 
@@ -54,22 +54,22 @@ And other times, in a rather dramatic fashion, it forms a glacial front, and dro
 
 ::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
-What you're seeing is, as the expression goes, _just the tip of the iceberg_. Ninety percent of its volume is submerged below the sea. It stands at a hundred metres above the sea, and nine hundred metres below.
+What you're seeing is, as the expression goes, _just the tip of the iceberg_. Ninety percent of its volume is submerged below the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
 
 ::image:bergsboat.avif(A boat on the bottom right for scale.)
 
-::pullquote(The Jakobshavn glacier is the likely birthplace of the Titanic's killer.)
+::pullquote(The Ilulissat glacier is the likely birthplace of the Titanic's killer.)
 
 ::image:boatwindow.avif
 
-These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their center of gravity shifts, and sometimes, they roll over, causing enormous tides and coastal tsunamis.
+These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their centre of gravity shifts, and sometimes, they roll over, causing lethal waves and coastal tsunamis.
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove like patterns that almost seems biological. The berg on the right has very recently rolled over.
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
-In the quiet town of Ilullisat, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
+Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
 
 ::image:man.avif
 
-::image:church.avif(Zion's church is a historic Lutheran church, where little bergs lick the shore.)
+::image:church.avif(This historic Lutheran churcg where little bergs lick the shore, was built in 1782, and for a time, was the biggest building in Greenland.)
