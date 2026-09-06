@@ -34,7 +34,7 @@ We subconsciously judge distances based on how hazy they appear. Over here, misc
 <hr>
 
 
-Most of Greenland is neither _green_ nor _land_. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for a 100,000 years.
+::dropcap(Most of Greenland is neither green nor land. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for a 100,000 years.)
 
 It works like this: First, make it snow. Keep everything cold enough to not let it melt. Add more snow on top. The pressure builds turns the lower layers of snow into ice. Repeat for a hundred thousand years and voilà, you have the Greenlandic ice sheet.
 
@@ -46,13 +46,21 @@ Sometimes, the glacier meets the sea in the form of pretty meltwater falls.
 
 And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ chunks of ice into the sea.
 
-::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord)
+<br>
+<br>
+<br>
 
-::image:bergsboat.avif(A boat on the bottom right for scale)
+::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
-::pullquote(The Jakobshavn glacier is the likely birthplace of the Titanic's killer)
+What you're seeing is, as the expression goes, _just the tip of the iceberg_. Ninety percent of it's volume is submerged below the sea. It stands at a hundred metres above the sea, and nine hundred metres below.
+
+::image:bergsboat.avif(A boat on the bottom right for scale.)
+
+::pullquote(The Jakobshavn glacier is the likely birthplace of the Titanic's killer.)
 
 ::image-sq:boatwindow.avif
+
+These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their center of gravity shifts, and sometimes, they roll over, causing enormous tides and coastal tsunamis.
 
 ::image:map.avif
 
