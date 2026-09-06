@@ -25,9 +25,14 @@ Before satellites, coastal stations like these were essential for ship-to-land c
 
 ::image:air.avif(Qoornoq. A fifteen passenger boat idles like a toy in a bathtub.)
 
-There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour. We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour.
 
 ::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
+
+We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is not close.
+
+<hr>
+
 
 Most of Greenland is neither _green_ nor _land_. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for a 100,000 years.
 
