@@ -35,16 +35,20 @@ It works like this: First, make it snow. Keep everything cold enough to not let 
 
 At this point, the ice begins to _flow_ in slow motion. Like pancake batter slowly spreading out over a pan, the ice flows out towards the sea.
 
-Sometimes, the glacier meets the sea in the form of meltwater falls.
+Sometimes, the glacier meets the sea in the form of pretty meltwater falls.
 
 ::image:falls.avif(Meltwater falls off the Qingag mountain)
 
-And other times, it forms a glacial front, and in a tad dramatic fashion, drops enormous chunks of ice into the sea.
+And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ chunks of ice into the sea.
 
-::bleed:bergsboat.avif(The Ilulissat Icefjord. A boat on the bottom right for scale)
+::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord)
+
+::image:bergsboat.avif(A boat on the bottom right for scale)
+
+::pullquote(The Jakobshavn glacier is the likely birthplace of the Titanic's killer)
+
+::image-sq:boatwindow.avif
 
 ::image:map.avif
 
-::image:boatwindow.avif
 
-::image:hugeberg.avif
