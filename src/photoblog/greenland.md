@@ -54,11 +54,13 @@ And other times, in a rather dramatic fashion, it forms a glacial front, and dro
 
 ::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
+Ilulissat is Greenlandic for _Icebergs_.
+
 What you're seeing is, as the expression goes, _just the tip of the iceberg_. Ninety percent of its volume is submerged below the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
 
 ::image:bergsboat.avif(A boat on the bottom right for scale.)
 
-::pullquote(The Ilulissat glacier is the likely birthplace of the Titanic's killer.)
+::pullquote(The Sermeq Kujalleq glacier is the likely birthplace of the Titanic's killer.)
 
 ::image:boatwindow.avif
 
@@ -68,8 +70,8 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove like patterns that almost seems biological. The berg on the right has very recently rolled over.
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
-Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
+Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
 
 ::image:man.avif
 
-::image:church.avif(This historic Lutheran churcg where little bergs lick the shore, was built in 1782, and for a time, was the biggest building in Greenland.)
+::image:church.avif(Zion's Church, built in 1782, was for a time the biggest building in Greenland. Little bergs lick the shore below it.)
