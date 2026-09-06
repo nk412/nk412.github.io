@@ -67,3 +67,11 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 ::image:map.avif
 
 
+
+::image:street.avif
+
+::image:texture.avif
+
+::image:man.avif
+
+::image:church.avif
