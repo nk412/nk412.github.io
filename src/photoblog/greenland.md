@@ -107,8 +107,8 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 
 ::image:dogs.avif(A peaceful afternoon slumber was accidentally disturbed.)
 
-::image:pups.avif(Not being able to pet them was the hardest part of my day.)
+::image:pups.avif(Not being able to pet them was the most frustrating part of my week.)
 
-South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
+South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
 
 
