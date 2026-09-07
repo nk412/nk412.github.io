@@ -98,13 +98,13 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 <br>
 <br>
 
-::dropcap(Dogs in Greenland are a complicated affair. North of the Arctic circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets. The only exceptions are made for police and guide dogs, and even then they have to be neutered.)
+::dropcap(Dogs in Greenland are a complicated affair. North of the Arctic Circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets.)
 
-These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from north east Asia.
+These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Northeast Asia. The only exceptions allowed are for police and guide dogs, and even then, they have to be neutered.
 
-::pullquote(If a dog goes south of the Arctic circle, it is never allowed back in. If a dog is flow to Copenhagen for treatment, it has to be left behind.)
+::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
-Much like the Inuit, the dogs can trace their ancestry back to Siberia. All adult dogs are kept chained outside, while pups under six months roam free. South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing, until they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
+All adult dogs are kept chained outside, while pups under six months roam free. South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing, until they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
 
 
 
