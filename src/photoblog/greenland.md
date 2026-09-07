@@ -75,3 +75,10 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 ::image:man.avif
 
 ::image:church.avif(Zion's Church, built in 1782, was for a time the biggest wooden building in a country with no trees. Little bergs lick the shore below it.)
+::image:bikes.avif
+
+::image:fam.avif
+
+::image:wave.avif
+
+::image:coffee.avif
