@@ -104,7 +104,7 @@ These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is esse
 
 ::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
-All adult dogs are kept chained outside, while pups under six months roam free. South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing, until they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
+All adult dogs are kept chained outside, while pups under six months roam free. South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing, and then without warning they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
 
 
 
