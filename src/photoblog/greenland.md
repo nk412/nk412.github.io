@@ -97,17 +97,18 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::dropcap(Dogs in Greenland are a complicated affair. North of the Arctic Circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets.)
 
+::image:dog.avif(The Greenland dog, or Grønlandshund (Danish), or Kalaallit Qimmiat(Greenlandic). A fine specimen)
+
 These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Northeast Asia. The only exceptions allowed are for police and guide dogs, and even then, they have to be neutered.
 
 ::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
-All adult dogs are kept chained outside, while pups under six months roam free. South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
+All adult dogs are kept chained outside, while pups under six months roam free. You are not allowed to play with them. If they associate humans with cuddles and scratches, they'll make bad sled dogs.
+
+::image:dogs.avif(A peaceful afternoon slumber was accidentally disturbed.)
+
+::image:pups.avif(Not being able to pet them was the hardest part of my day.)
+
+South of Ilulissat is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it's the sound of the dogs.
 
 
-
-
-::image:dogs.avif
-
-::image:dog.avif
-
-::image:pups.avif
