@@ -13,7 +13,7 @@ Usage:
     uv run tools/to_avif.py greenland ~/Pictures/DSC01234.jpg
 
 Output filename is the input stem, lowercased. Pass --name to override
-(single input only).
+(single input only). Pass --short-edge to change the target size.
 """
 
 import argparse
@@ -26,10 +26,10 @@ SHORT_EDGE = 2000
 QUALITY = 75
 
 
-def convert(src: Path, dst: Path) -> None:
+def convert(src: Path, dst: Path, short_edge: int = SHORT_EDGE) -> None:
     im = ImageOps.exif_transpose(Image.open(src)).convert("RGB")
     w, h = im.size
-    scale = SHORT_EDGE / min(w, h)
+    scale = short_edge / min(w, h)
     if scale < 1:
         im = im.resize((round(w * scale), round(h * scale)), Image.LANCZOS)
     dst.parent.mkdir(parents=True, exist_ok=True)
@@ -42,13 +42,14 @@ def main() -> None:
     p.add_argument("post", help="post name, i.e. the folder under assets/")
     p.add_argument("images", nargs="+", type=Path)
     p.add_argument("--name", help="output stem (single input only)")
+    p.add_argument("--short-edge", type=int, default=SHORT_EDGE, help=f"target short edge in px (default {SHORT_EDGE})")
     args = p.parse_args()
     if args.name and len(args.images) > 1:
         p.error("--name only works with a single input image")
     out_dir = ROOT / "assets" / args.post
     for src in args.images:
         stem = args.name or src.stem.lower()
-        convert(src, out_dir / f"{stem}.avif")
+        convert(src, out_dir / f"{stem}.avif", args.short_edge)
 
 
 if __name__ == "__main__":
