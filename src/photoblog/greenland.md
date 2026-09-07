@@ -105,3 +105,9 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 
 
 
+
+::image:dogs.avif
+
+::image:dog.avif
+
+::image:pups.avif
