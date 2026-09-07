@@ -10,7 +10,7 @@
 
 ::bleed:qoornoq.avif(Like litter on a polished floor. Icebergs at Qoornoq.)
 
-::dropcap(In the 1970s, the Danish government decided that it was too expensive to run little settlements, and so forced everyone out to the bigger towns. Today, Qoornoq is officially an abandoned settlement, which means no new houses can be built, and the old ones have become summer homes.)
+::dropcap(The Danish government in the 1970s decided that it was too expensive to run little settlements, and so forced everyone out to the bigger towns. Today, Qoornoq is officially an abandoned settlement, which means no new houses can be built, and the old ones have become summer homes.)
 
 ::image:qhouse1.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.)
 ::image:qhouse2.avif(The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
@@ -80,7 +80,7 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 <br>
 <br>
 
-::dropcap(Ilulissat is home to 5,000 people and 4,000 dogs. A generation ago, those two numbers were almost the same.)
+::dropcap(Home to 5,000 people and 4,000 dogs, Ilulissat is the third largest city in Greenland. A generation ago, those two numbers were almost the same.)
 
 ::image:coffee.avif(Locals having coffee at the communal bar.)
 The town's big store's coffee bar is an excellent place to catch up with old friends, or if you're an outsider, to practice your Greenlandic.
@@ -89,7 +89,7 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
 ::image:bikes.avif(School's out, and now it's time to tear up the high street!)
 
-::image:wave.avif,wave2.avif(A resident waves at a familiar face.)
+::image:wave.avif(A resident waves at a familiar face.)
 In a town of five thousand people, you cannot walk to the shop without seeing someone you know.
 
 ::image:fam.avif(School runs at 69° North.)
