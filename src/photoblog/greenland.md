@@ -85,6 +85,8 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 ::image:coffee.avif(Locals having coffee at the communal bar.)
 The town's big store's coffee bar is an excellent place to catch up with old friends, or if you're an outsider, to practice your Greenlandic.
 
+What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
+
 ::image:bikes.avif(School's out, and now it's time to tear up the high street!)
 
 ::image:wave.avif(A resident waves at a familiar face.)
