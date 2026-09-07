@@ -94,5 +94,17 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::image:fam.avif(School runs at 69° North.)
 
+<br>
+<br>
+<br>
+
+::dropcap(The topic of dogs in Greenland is a complicated affair. North of the Arctic circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets. The only exceptions are made for police and guide dogs, and even then they have to be neutered.)
+
+These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and came with the Thule people when they migrated from north east Asia.
+
+::pullquote(If a dog goes south of the Arctic circle, it is never allowed back in. If a dog is flow to Copenhagen for treatment, it has to be left behind.)
+
+Much like the Inuit, the dogs can trace their ancestry back to Siberia. All adult dogs are kept chained outside, while pups under six months roam free.
+
 
 
