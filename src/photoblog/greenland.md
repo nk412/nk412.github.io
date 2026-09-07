@@ -76,9 +76,7 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 
 ::image:church.avif(Zion's Church, built in 1782, was for a time the biggest wooden building in a country with no trees. Little bergs lick the shore below it.)
 
-<br>
-<br>
-<br>
+
 
 ::dropcap(Home to 5,000 people and 4,000 dogs, Ilulissat is the third largest city in Greenland. A generation ago, those two numbers were almost the same.)
 
@@ -94,9 +92,8 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::image:fam.avif(School runs at 69° North.)
 
-<br>
-<br>
-<br>
+
+
 
 ::dropcap(Dogs in Greenland are a complicated affair. North of the Arctic Circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets.)
 
