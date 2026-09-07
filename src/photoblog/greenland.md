@@ -75,10 +75,22 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 ::image:man.avif
 
 ::image:church.avif(Zion's Church, built in 1782, was for a time the biggest wooden building in a country with no trees. Little bergs lick the shore below it.)
-::image:bikes.avif
 
-::image:fam.avif(Ilulissat is home to 5000 people and 4000 dogs.)
+<br>
+<br>
+<br>
 
-::image:wave.avif
+::dropcap(Ilulissat is home to 5,000 people and 4,000 dogs. A generation ago, those two numbers were almost the same.)
 
-::image:coffee.avif
+::image:coffee.avif(Locals having coffee at the communal bar.)
+The town's big store's coffee bar is an excellent place to catch up with old friends, or if you're an outsider, to practice your Greenlandic.
+
+::image:bikes.avif(School's out, and now it's time to tear up the high street!)
+
+::image:wave.avif(A resident waves at a familiar face.)
+In a town of five thousand people, you cannot walk to the shop without seeing someone you know.
+
+::image:fam.avif(School runs at 69° North.)
+
+
+
