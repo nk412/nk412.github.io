@@ -53,6 +53,8 @@ This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
+This is the most _productive_ (yes, that is the the word used to describe a glacier's activity) in the northern hemisphere, and the fastest. It flows at about 40 metres a day.
+
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
 The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.
