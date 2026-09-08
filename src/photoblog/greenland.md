@@ -125,3 +125,11 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 ::image:drift.avif
 
+
+::image:fjordshore.avif
+
+::image:yellow.avif
+
+::image:red.avif
+
+::image:skate.avif
