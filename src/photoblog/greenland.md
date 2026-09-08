@@ -12,8 +12,7 @@
 
 ::dropcap(The Danish government in the 1970s decided that it was too expensive to run little settlements, and so forced everyone out to the bigger towns. Today, Qoornoq is officially an abandoned settlement, which means no new houses can be built, and the old ones have become summer homes.)
 
-::image:qhouse1.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.)
-::image:qhouse2.avif(The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
+::image:qhouse1.avif,qhouse2.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.|The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
 
 ::image:sermitsiaq.avif(The coloured houses of old Nuuk, facing Sermitsiaq.)
 
