@@ -35,7 +35,7 @@ We subconsciously judge distances based on how hazy they appear. Over here, misc
 
 ::dropcap(Most of Greenland is neither green nor land. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for 120,000 years.)
 
-"*Here's the recipe:** First, make it snow. Keep everything cold enough to not let it melt. Add more snow on top. The pressure that builds turns the lower layers of snow into ice. Repeat for a hundred thousand years and voilà, you have the Greenlandic ice sheet.
+**Here's the recipe:** First, make it snow. Keep everything cold enough to not let it melt. Add more snow on top. The pressure that builds turns the lower layers of snow into ice. Repeat for a hundred thousand years and voilà, you have the Greenlandic ice sheet.
 
 At this point, the ice begins to _flow_ in slow motion. Like pancake batter slowly spreading out over a pan, the ice flows out towards the sea.
 
