@@ -79,7 +79,7 @@ What you're seeing is _just the tip of the iceberg_. Ninety percent of its volum
 
 These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their centre of gravity shifts, and sometimes, they roll over, causing sudden waves and coastal tsunamis.
 
-::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.
+::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.)
 
 ::pullquote(Blue ice is the harder and older. They come from deep in the ice sheet where the pressure was high, formed from snow that fell at a time before humans had stepped on Europe.)
 
