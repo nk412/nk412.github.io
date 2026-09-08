@@ -59,11 +59,11 @@ This is the most _productive_ (yes, that is indeed the word used to describe a g
 
 The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. The trick to survive the Arctic tundra is to lay low, away from the winds.
 
-::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together can coat an entire mountain in yellow and red rust.)
+::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
 ::image:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
 
-The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.
+::dropcap(The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.)
 
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
@@ -79,7 +79,7 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 
 ::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.
 
-::pullquote(Blue ice is the hardest and oldest. They come from deep in the ice sheet, formed from snow that fell at a time before humans had stepped on Europe.)
+::pullquote(Blue ice is the harder and older. They come from deep in the ice sheet where the pressure was high, formed from snow that fell at a time before humans had stepped on Europe.)
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
@@ -109,6 +109,7 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::image:fam.avif(School runs at 69° North.)
 
+::image:skate.avid(As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
 
 <br>
 
@@ -127,15 +128,3 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 ::image:pups.avif(Not being able to pet them was the most frustrating part of my week.)
 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
-
-
-::image:drift.avif
-
-
-::image:fjordshore.avif
-
-::image:yellow.avif
-
-::image:red.avif
-
-::image:skate.avif
