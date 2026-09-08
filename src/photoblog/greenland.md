@@ -23,7 +23,7 @@ The colours used to tell you what each building was for. Red was for trade, chur
 
 Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched high and close to the water.
 
-::image:churchwindow.avif(Looking out a window in Qoornoq.)
+::image-sq:churchwindow.avif(Looking out a window in Qoornoq.)
 
 There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour.
 
@@ -57,14 +57,6 @@ This is the most _productive_ (yes, that is indeed the word used to describe a g
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
-The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. 
-
-::pullquote(The trick to survive the Arctic tundra is to lay low, away from the winds.)
-
-::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
-
-::image:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
-
 ::dropcap(The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.)
 
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
@@ -85,6 +77,14 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
+
+The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. 
+
+::pullquote(The trick to survive the Arctic tundra is to lay low, away from the winds.)
+
+::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
+
+::image:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
 Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
