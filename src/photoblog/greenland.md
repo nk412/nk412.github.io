@@ -53,6 +53,10 @@ This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
+::image:hat.avif(A cowboy takes a walk by the fjord.)
+
+The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.
+
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
 What you're seeing is _just the tip of the iceberg_. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
@@ -64,6 +68,10 @@ What you're seeing is _just the tip of the iceberg_. Ninety percent of its volum
 ::image:boatwindow.avif(An hour of this and the white stops registering as scenery.)
 
 These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their centre of gravity shifts, and sometimes, they roll over, causing sudden waves and coastal tsunamis.
+
+::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.
+
+::pullquote(Blue ice is the hardest and oldest. They come from deep in the ice sheet, formed from snow that fell at a time before humans had stepped on Europe.)
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
@@ -113,11 +121,5 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
 
 
-
-::image:kiss.avif
-
 ::image:drift.avif
 
-
-
-::image:hat.avif
