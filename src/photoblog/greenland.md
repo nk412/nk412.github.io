@@ -47,11 +47,11 @@ And other times, in a rather dramatic fashion, it forms a glacial front, and dro
 
 <br>
 
-::bleed:fjord.avif(At 7 kilometres wide, 1 kilometre deep, and 60 kilometres long, this fjord is chock-full of ice.)
+::bleed:fjord.avif(At 7 kilometres wide, 1 kilometre deep, and roughly 50 kilometres long, this fjord is chock-full of ice.)
 
-This is the Ilulissat icefjord. This slow moving fjord connects the glacier front (Sermeq Kujalleq) with the sea. 
+This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
 
-::image:fjord2.avif
+::image:fjord2.avif(Two men look out at the fjord from then cliff.)
 
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
