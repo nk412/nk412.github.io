@@ -94,7 +94,7 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::image:dog.avif(The Greenland dog, or Grønlandshund (Danish), or Kalaallit Qimmiat (Greenlandic). A fine specimen.)
 
-These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Northeast Asia. The only exceptions allowed are for police and guide dogs, and even then, they have to be neutered.
+These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Siberia via Alaska and Canada. The only exceptions allowed are for police and guide dogs, and even then, they have to be neutered.
 
 ::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
