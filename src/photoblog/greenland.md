@@ -51,7 +51,7 @@ And other times, in a rather dramatic fashion, it forms a glacial front, and dro
 
 This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
 
-::image:fjord2.avif(Two men look out at the fjord from then cliff.)
+::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
@@ -66,7 +66,7 @@ What you're seeing is _just the tip of the iceberg_. Ninety percent of its volum
 These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their centre of gravity shifts, and sometimes, they roll over, causing sudden waves and coastal tsunamis.
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
-In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove like patterns that almost seems biological. The berg on the right has very recently rolled over.
+In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
 Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
