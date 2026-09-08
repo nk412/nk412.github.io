@@ -6,6 +6,7 @@ This is distinct from @@key: value metadata at the top of files.
 """
 
 import re
+import sys
 
 
 def image(args: str, post_name: str, caption: str = None) -> str:
@@ -15,6 +16,13 @@ def image(args: str, post_name: str, caption: str = None) -> str:
         ::image:photo.avif
         ::image:photo.avif(Optional caption)
         ::image:left.avif,right.avif
+        ::image:left.avif,right.avif(Shared caption)
+        ::image:left.avif,right.avif(Left caption|Right caption)
+
+    A row caption is shared by all images unless it contains "|", in which
+    case it is split into one caption per image, in order. An empty segment
+    leaves that image uncaptioned. On mobile the row stacks into separate
+    captioned figures, exactly as if each image had its own ::image: tag.
     """
     files = args.split(",")
     if len(files) == 1:
@@ -22,6 +30,23 @@ def image(args: str, post_name: str, caption: str = None) -> str:
         if caption:
             return f"<figure>{img}<figcaption>{caption}</figcaption></figure>"
         return f"![](../assets/{post_name}/{files[0]})"
+    if caption and "|" in caption:
+        captions = [c.strip() for c in caption.split("|")]
+        if len(captions) > len(files):
+            print(
+                f"Warning: ::image:{args} has {len(files)} images but "
+                f"{len(captions)} captions; extra captions dropped",
+                file=sys.stderr,
+            )
+        figures = []
+        for i, f in enumerate(files):
+            img = f'<img src="../assets/{post_name}/{f}" />'
+            cap = captions[i] if i < len(captions) else ""
+            if cap:
+                figures.append(f"<figure>{img}<figcaption>{cap}</figcaption></figure>")
+            else:
+                figures.append(f"<figure>{img}</figure>")
+        return f'<div class="img-row captioned">{"".join(figures)}</div>'
     imgs = "".join(f'<img src="../assets/{post_name}/{f}" />' for f in files)
     row = f'<div class="img-row">{imgs}</div>'
     if caption:

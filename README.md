@@ -27,6 +27,8 @@ Inline `::name:args(caption)` patterns in the markdown body:
 | Directive | Example | Result |
 |-----------|---------|--------|
 | `::image:` | `::image:a.avif(cap)` | Single image, or comma-separated side-by-side row |
+| | `::image:a.avif,b.avif(cap)` | Row with one shared caption under both images |
+| | `::image:a.avif,b.avif(left cap\|right cap)` | Row with a caption per image; stacks into separate captioned figures on mobile |
 | `::image-sq:` | `::image-sq:a.avif` | Square crop via CSS |
 | `::image-grid:` | `::image-grid:a.avif,b.avif,c.avif,d.avif` | 2-column masonry grid |
 | `::bleed:` | `::bleed:a.avif(cap)` | Full-bleed image, edge-to-edge (needs `@@essay`) |

@@ -23,7 +23,7 @@ On narrow mobile devices, they get stacked on top of each other.
 You can also take an image and center and square it up. You don't need to edit an image, but instead just use CSS tricks for it.
 ::image-sq:negroni.avif
 
-::image:reflection.avif,walk.avif(Another shared caption between two landscape shots. L: A Rains store, R: Nice headphones)
+::image:reflection.avif,walk.avif(Or split the caption with a pipe to give each image its own. This one is a Rains store, reflected.|And this one is a pair of nice headphones. On phones these stack, each keeping its caption.)
 ::image:bar.avif
 
 
