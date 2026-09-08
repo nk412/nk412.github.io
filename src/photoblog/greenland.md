@@ -57,7 +57,9 @@ This is the most _productive_ (yes, that is indeed the word used to describe a g
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
-The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. The trick to survive the Arctic tundra is to lay low, away from the winds.
+The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. 
+
+::pullquote(The trick to survive the Arctic tundra is to lay low, away from the winds.)
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
