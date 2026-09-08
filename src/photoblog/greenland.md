@@ -29,7 +29,7 @@ There are no significant sources of smoke and no trees to produce pollen. The ai
 
 ::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
 
-We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. **That mountain is not close.**
+We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is **not** close.
 
 <br>
 
@@ -98,9 +98,9 @@ These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is esse
 
 ::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
-All adult dogs are kept chained outside, while pups under six months roam free. You are not allowed to play with them. If they associate humans with cuddles and scratches, they'll make bad sled dogs.
-
 ::image:dogs.avif(A peaceful afternoon slumber was accidentally disturbed.)
+
+All adult dogs are kept chained outside, while pups under six months roam free. You are not allowed to play with them. According to the musher, if they associate humans with cuddles and scratches, they'll make bad sled dogs.
 
 ::image:pups.avif(Not being able to pet them was the most frustrating part of my week.)
 
