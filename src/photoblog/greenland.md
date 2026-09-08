@@ -23,7 +23,7 @@ The colours used to tell you what each building was for. Red was for trade, chur
 
 Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched high and close to the water.
 
-::image:air.avif(Qoornoq. A fifteen passenger boat idles like a toy in a bathtub.)
+::image:churchwindow.avif(Looking out a window in Qoornoq.)
 
 There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour.
 
@@ -130,5 +130,3 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 ::image:pups.avif(Not being able to pet these pups was genuinely the most frustrating part of my day.)
 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
-
-::image:churchwindow.avif
