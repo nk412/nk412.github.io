@@ -109,7 +109,7 @@ In a town of five thousand people, you cannot walk to the shop without seeing so
 
 ::image:fam.avif(School runs at 69° North.)
 
-::image:skate.avid(As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
+::image:skate.avif(As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
 
 <br>
 
@@ -125,6 +125,6 @@ These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is esse
 
 All adult dogs are kept chained outside, while pups under six months roam free. You are not allowed to play with them. According to the musher, if they associate humans with cuddles and scratches, they'll make bad sled dogs.
 
-::image:pups.avif(Not being able to pet them was the most frustrating part of my week.)
+::image:pups.avif(Not being able to pet these pups was genuinely the most frustrating part of my day.)
 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
