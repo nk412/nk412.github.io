@@ -43,11 +43,17 @@ Sometimes, the glacier meets the sea in the form of pretty meltwater falls.
 
 ::image:falls.avif(The Qingaq mountain and the falls below.)
 
-And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ chunks of ice into the sea.
+And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ amounts of ice into the sea.
 
 <br>
 
-::bleed:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
+::bleed:fjord.avif(At 7 kilometres wide, 1 kilometre deep, and 60 kilometres long, this fjord is chock-full of ice.)
+
+This is the Ilulissat icefjord. This slow moving fjord connects the glacier front (Sermeq Kujalleq) with the sea. 
+
+::image:fjord2.avif
+
+::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
 What you're seeing is _just the tip of the iceberg_. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
 
@@ -112,6 +118,4 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 ::image:drift.avif
 
-::image:fjord.avif
 
-::image:fjord2.avif
