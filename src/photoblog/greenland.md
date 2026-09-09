@@ -26,11 +26,11 @@ Before satellites, coastal stations like these were essential for ship-to-land c
 
 There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour.
 
-::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
-
 We subconsciously judge distances based on how hazy they appear. Over here, miscalculations are common. Ask any skipper. That mountain is **not** close.
 
-<br>
+::pullquote(Polar air is some of the cleanest in the world. This makes for an excellent lens but a terrible rangefinder.)
+
+<br><br>
 
 ::dropcap(Most of Greenland is neither green nor land. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for 120,000 years.)
 
@@ -52,9 +52,11 @@ This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
-This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and the fastest. It flows at about 40 metres a day.
+This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and the fastest. It flows at about 40 metres a day, to west out to the Labrador sea (to the right in this picture).
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
+
+<br><br>
 
 ::dropcap(The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.)
 
@@ -77,15 +79,17 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
 
-::dropcap(Lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high.)
+<br><br>
 
-The trick to survive the Arctic tundra is to lay low, away from the winds.
+::dropcap(Lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. The trick to survive the Arctic tundra is to lay low, away from the winds.)
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
 ::image:icyred.avif(Under the right light, the ice merges with the sky.)
 
 ::bleed:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
+
+<br><br>
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
 Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
@@ -96,7 +100,7 @@ Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore
 
 ::image:church.avif(Zion's Church, built in 1782, was for a time the biggest wooden building in a country with no trees. Little bergs lick the shore below it.)
 
-<br>
+<br><br>
 
 ::dropcap(Home to 5,000 people and 4,000 dogs, Ilulissat is the third largest city in Greenland. A generation ago, those two numbers were almost the same.)
 
@@ -114,7 +118,7 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
 
 
-<br>
+<br><br>
 
 ::dropcap(Dogs in Greenland are a complicated affair. North of the Arctic Circle, and all of the East coast is considered the official sled dog district. The only dogs allowed in here are the Greenlandic sled dog. All dogs are working dogs, not pets.)
 
