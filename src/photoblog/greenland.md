@@ -120,16 +120,17 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 ::image:airport.avif(A domestic airport's waiting area.)
 Domestic air travel in Greenland feels closer to ferry travel than flying. Airports are tiny buildings that serve as check-in desk, waiting room, departures and arrivals all at the same time. 
 
-Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip most of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off.
+::pullquote(Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip all of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off.)
 
 Warm smiles, hugs and kisses between passengers and airport staff are all too common.
 
 Greenland sits outside the EU aviation security jurisdiction, which explains some of the informality of it all.
 
-::image:dash8.avif(Meet the DASH-8.)
+::image:dash8.avif(Meet the DASH-8. Along with helicopters, these aircraft are crucial in connecting the remote settlements of northern Greenland.)
 
+The DASH-8/200 is a beautiful 37-seater that is the face of domestic air travel in the country. While not as fast as jet planes, this propeller-powered nimble aircraft has incredible acceleration from rest, reaching take off speeds rather quickly, making it ideal for short and rugged airstrips. In other words, great for Greenland.
 
-
+There are no roads outside towns in Greenland. Ferries take days, and these flight routes are crucial for travel, supplies and other essentials, especially in the deep North.
 
 
 <br><br>
