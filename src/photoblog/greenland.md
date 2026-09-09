@@ -159,3 +159,7 @@ Maybe that's what keeps calling. All that space and there's nothing to hide behi
 
 
 ::bleed:manybergs.avif
+
+::image:post1.avif
+
+::image:post2.avif
