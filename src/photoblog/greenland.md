@@ -113,7 +113,7 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
 ::image:fam.avif(School runs at 69° North.)
 
-::image:wave.avif,skate.avif(A resident waves at a familiar face. In a town of five thousand people, you cannot walk to the shop without seeing someone you know.|As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
+::image:wave2.avif,skate.avif(A resident waves at a familiar face. In a town of five thousand people, you cannot walk to the shop without seeing someone you know.|As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
 
 
 
