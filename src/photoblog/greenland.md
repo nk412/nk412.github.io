@@ -85,7 +85,7 @@ The trick to survive the Arctic tundra is to lay low, away from the winds.
 
 ::image:icyred.avif(Under the right light, the ice merges with the sky.)
 
-::image:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
+::bleed:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
 
 ::image:street.avif(A quiet street in Ilulissat, looking out to the sea.)
 Ilulissat is Greenlandic for _Icebergs_. Here, doing the dishes is never a chore. The view outside is never static, as giant icebergs drift slowly, constantly.
