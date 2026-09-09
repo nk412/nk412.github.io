@@ -115,6 +115,20 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
 ::image:wave2.avif,skate.avif(A resident waves at a familiar face. In a town of five thousand people, you cannot walk to the shop without seeing someone you know.|As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
 
+::image:blocks.avif(These apartment blocks in Sisimiut add some much needed colour against the barren hills behind.)
+
+::image:airport.avif(A domestic airport's waiting area.)
+Domestic air travel in Greenland feels closer to ferry travel than flying. Airports are tiny buildings that serve as check-in desk, waiting room, departures and arrivals all at the same time. 
+
+Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip most of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off.
+
+Warm smiles, hugs and kisses between passengers and airport staff are all too common.
+
+Greenland sits outside the EU aviation security jurisdiction, which explains some of the informality of it all.
+
+::image:dash8.avif(Meet the DASH-8.)
+
+
 
 
 
@@ -137,10 +151,9 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
 
 
-::image:blocks.avif
 
-::image:dash8.avif
 
-::image:airport.avif
 
-::image:manybergs.avif
+
+
+::bleed:manybergs.avif
