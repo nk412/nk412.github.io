@@ -153,7 +153,8 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 
 
-
+<br><br><br>
+Maybe that's what keeps calling. There's nothing to hide behind. Not for the mountains, not for the ice, not for the dogs. Not for you.
 
 
 
