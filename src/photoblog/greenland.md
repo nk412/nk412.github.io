@@ -60,7 +60,7 @@ This is the most _productive_ (yes, that is indeed the word used to describe a g
 
 ::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
 
-What you're seeing is _just the tip of the iceberg_. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
+What you're seeing is (sorry) _just the tip of the iceberg_. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
 
 ::image:bergsboat.avif(A boat on the bottom right for scale.)
 
@@ -72,16 +72,18 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 
 ::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.)
 
-::pullquote(Blue ice is the harder and older. They come from deep in the ice sheet where the pressure was high, formed from snow that fell at a time before humans had stepped on Europe.)
+::pullquote(Blue ice is harder and older. They come from deep in the ice sheet where the pressure was high, formed from snow that fell at a time before humans had stepped on Europe.)
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
 
-The lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. 
+::dropcap(Lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high.)
 
-::pullquote(The trick to survive the Arctic tundra is to lay low, away from the winds.)
+The trick to survive the Arctic tundra is to lay low, away from the winds.
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
+
+::image:icyred.avif(Under the right light, the ice merges with the sky.)
 
 ::image:fjordshore.avif(A solitary man stands on the shores of a very, very cold beach.)
 
