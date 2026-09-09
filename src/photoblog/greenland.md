@@ -42,17 +42,17 @@ Sometimes, the glacier meets the sea in the form of pretty meltwater falls.
 
 ::image:falls.avif(The Qingaq mountain and the falls below.)
 
-And other times, in a rather dramatic fashion, it forms a glacial front, and drops _enormous_ amounts of ice into the sea.
+And other times, in a rather dramatic fashion, it drops _enormous_ amounts of ice into the sea.
 
 <br>
 
 ::bleed:fjord.avif(At 7 kilometres wide, 1 kilometre deep, and roughly 50 kilometres long, this fjord is chock-full of ice.)
 
-This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
+This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). If it looks like a dumping ground, that's because it is. This slow-moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
-This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and the fastest. It flows at about 40 metres a day, to west out to the Labrador sea (to the right in this picture).
+This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and also the fastest. It flows at whopping 40 metres a day, to the West out to the Labrador sea (to the right in this picture).
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
@@ -72,16 +72,16 @@ What you're seeing is (sorry) _just the tip of the iceberg_. Ninety percent of i
 
 These giant blocks of ice are the size of entire towns. Can't get too close to them, though. As they crack and melt, their centre of gravity shifts, and sometimes, they roll over, causing sudden waves and coastal tsunamis.
 
-::image:kiss.avif(With not much else to do, these to stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.)
+::image:kiss.avif(With not much else to do, these two stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.)
 
-::pullquote(Blue ice is harder and older. They come from deep in the ice sheet where the pressure was high, formed from snow that fell at a time before humans had stepped on Europe.)
+::pullquote(Blue ice is harder and older. They come from deep in the ice sheet, formed from snow that fell at a time before humans had stepped on Europe.)
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
 
 <br><br>
 
-::dropcap(Lack of trees does not meet a lack of flora. Greenland's autumn colors come from ankle-high. The trick to survive the Arctic tundra is to lay low, away from the winds.)
+::dropcap(Lack of trees does not mean a lack of flora. There's an entire forest below your feet. Greenland's autumn colors come from ankle-high. The secret to surviving the Arctic tundra is to lay low, away from the winds.)
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
@@ -117,7 +117,7 @@ What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
 ::image:blocks.avif(These apartment blocks in Sisimiut add some much needed colour against the barren hills behind.)
 
-::image:airport.avif(A domestic airport's waiting area.)
+::image:airport.avif(Sisimiut airport's waiting area + check in + departures and arrivals hall.)
 Domestic air travel in Greenland feels closer to ferry travel than flying. Airports are tiny buildings that serve as check-in desk, waiting room, departures and arrivals all at the same time. 
 
 ::pullquote(Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip all of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off.)
@@ -154,7 +154,7 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 <hr>
 
 <br><br><br>
-Maybe that's what keeps calling. There's nothing to hide behind. Not for the mountains, not for the ice, not for the dogs. Not for you.
+Maybe that's what keeps calling. All that space and there's nothing to hide behind. Not for the mountains, not for the ice, not for the dogs. Not for you.
 
 
 
