@@ -136,4 +136,3 @@ All adult dogs are kept chained outside, while pups under six months roam free. 
 
 South of town is a giant field of over five hundred dogs and pups, barking, playing. And then without warning, they all howl in unison. If there's an official sound to Ilulissat, it has to be the sound of the dogs.
 
-::image:icyred.avif
