@@ -109,6 +109,12 @@ The town's big store's coffee bar is an excellent place to catch up with old fri
 
 What's that? Oat milk? It's black. One cup. That'll be 8 kroner. _Qujanaq._
 
+::image:post1.avif,post2.avif(Signposts with double vowels and suspicious amount of Qs.)
+
+_Q_ sounds like a hard _K_ from the back of your throat. You'll hear it often, and you'll see it often, and when you learn to say it right, a thank you (_Qujanaq_) will earn you a slightly wider smile.
+
+Versions of this word can be heard all the way to Alaska.
+
 ::image:bikes.avif(School's out, and now it's time to tear up the high street!)
 
 ::image:fam.avif(School runs at 69° North.)
@@ -159,7 +165,3 @@ Maybe that's what keeps calling. All that space and there's nothing to hide behi
 
 
 ::bleed:manybergs.avif
-
-::image:post1.avif
-
-::image:post2.avif
