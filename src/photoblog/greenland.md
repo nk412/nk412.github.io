@@ -163,3 +163,5 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 Maybe that's what keeps calling. Here, at the edge of what's habitable, in all this space, life goes on. Just differently. Ankle-high, lying low.
 
 ::bleed:manybergs.avif
+
+::image:blades.avif
