@@ -1,7 +1,6 @@
 @@title: Greenland
-@@date: 20260905
+@@date: 20260910
 @@essay
-@@unlisted
 
 
 # Greenland
@@ -48,11 +47,11 @@ And other times, in a rather dramatic fashion, it drops _enormous_ amounts of ic
 
 ::bleed:fjord.avif(At 7 kilometres wide, 1 kilometre deep, and roughly 50 kilometres long, this fjord is chock-full of ice.)
 
-This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). If it looks like a dumping ground, that's because it is. This slow-moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
+This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow-moving fjord connects the glacier front (_Sermeq Kujalleq_) with the sea. Like a traffic jam from hell, it takes the ice about a year to make the journey out.
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
-This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and also the fastest. It flows at whopping 40 metres a day, to the West out to the Labrador sea (to the right in this picture).
+This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and also the fastest. It flows at 40 metres a day, to the West out to the Labrador sea (to the right in this picture).
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
@@ -135,6 +134,8 @@ Greenland sits outside the EU aviation security jurisdiction, which explains som
 ::image:dash8b.avif(Meet the DASH-8. Along with helicopters, these aircraft are crucial in connecting the remote settlements of northern Greenland.)
 
 The DASH-8/200 is a beautiful 37-seater that is the face of domestic air travel in the country. While not as fast as jet planes, this propeller-powered nimble aircraft has incredible acceleration from rest, reaching takeoff speeds rather quickly, making it ideal for short and rugged airstrips. In other words, great for Greenland.
+
+::image:blades.avif(The landscape through the blades.)
 
 There are no roads outside towns in Greenland. Ferries take days, and these flight routes are crucial for travel, supplies and other essentials, especially in the deep North.
 
