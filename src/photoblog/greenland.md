@@ -132,7 +132,7 @@ Warm smiles, hugs and kisses between passengers and airport staff are a common a
 
 Greenland sits outside the EU aviation security jurisdiction, which explains some of the informality of it all.
 
-::image:dash8.avif(Meet the DASH-8. Along with helicopters, these aircraft are crucial in connecting the remote settlements of northern Greenland.)
+::image:dash8b.avif(Meet the DASH-8. Along with helicopters, these aircraft are crucial in connecting the remote settlements of northern Greenland.)
 
 The DASH-8/200 is a beautiful 37-seater that is the face of domestic air travel in the country. While not as fast as jet planes, this propeller-powered nimble aircraft has incredible acceleration from rest, reaching takeoff speeds rather quickly, making it ideal for short and rugged airstrips. In other words, great for Greenland.
 
