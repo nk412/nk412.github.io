@@ -11,7 +11,8 @@
 
 ::dropcap(The Danish government in the 1970s decided that it was too expensive to run little settlements, and so forced everyone out to the bigger towns. That is not a wound that has healed. Today, Qoornoq is officially an abandoned settlement, which means no new houses can be built, and the old ones have become summer homes.)
 
-::image:qhouse1.avif,qhouse2.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.|The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
+::image:qhouse1.avif(A house at Qoornoq. It may not look it, but the water is barely above freezing.)
+::image:qhouse2.avif(The high tide lets some of the more persistent icebergs up the shore, where they melt down over the course of a few days. If you need more ice for your Aperol spritz, please just go fetch it yourself.)
 
 ::image:sermitsiaq.avif(The coloured houses of old Nuuk, facing Sermitsiaq.)
 
@@ -21,7 +22,7 @@ The colours used to tell you what each building was for. Red was for trade, chur
 
 Before satellites, coastal stations like these were essential for ship-to-land communication. Line of sight is crucial, so they were perched high and close to the water.
 
-::image-sq:churchwindow.avif(Looking out a window in Qoornoq.)
+::image:churchwindow.avif(Looking out a window in Qoornoq.)
 
 There are no significant sources of smoke and no trees to produce pollen. The air is cool and dry and carries very little water vapour.
 
@@ -118,7 +119,8 @@ Versions of this word can be heard all the way to Alaska.
 
 ::image:fam.avif(School runs at 69° North.)
 
-::image:wave2.avif,skate.avif(A resident waves at a familiar face. In a town of five thousand people, you cannot walk to the shop without seeing someone you know.|As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
+::image:wave2.avif(A resident waves at a familiar face. In a town of five thousand people, you cannot walk to the shop without seeing someone you know.)
+::image:skate.avif(As any urban teenager will tell you, it's just rad having a skatepark below your flat.)
 
 ::image:blocks.avif(These apartment blocks in Sisimiut add some much needed colour against the barren hills behind.)
 
