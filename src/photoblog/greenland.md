@@ -81,7 +81,7 @@ In the sun, the melting ice creates channels and draws streaks on the surface. U
 
 <br><br>
 
-::dropcap(Lack of trees does not mean a lack of flora. There's an entire forest below your feet. Greenland's autumn colors come from ankle-high. The secret to surviving the Arctic tundra is to lay low, away from the winds.)
+::dropcap(Lack of trees does not mean a lack of flora. There's an entire forest below your feet. Greenland's autumn colors come from ankle-high. The secret to surviving the Arctic tundra is to lie low, away from the winds.)
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
@@ -160,8 +160,6 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 <hr>
 
 <br><br><br>
-Maybe that's what keeps calling. All that space and there's nothing to hide behind. Not for the mountains, not for the ice, not for the dogs. Not for you.
-
-
+Maybe that's what keeps calling. Here, at the edge of what's habitable, among all this space, life goes on, just differently. Ankle-high, lying low.
 
 ::bleed:manybergs.avif
