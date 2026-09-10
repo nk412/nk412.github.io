@@ -74,7 +74,7 @@ These giant blocks of ice are the size of entire towns. Can't get too close to t
 
 ::image:kiss.avif(With not much else to do, these two stuck icebergs have decided to kiss each other, rubbing their faces off, revealing the blue old ice below.)
 
-::pullquote(Blue ice is harder and older. They come from deep in the ice sheet, formed from snow that fell at a time before humans had stepped on Europe.)
+::pullquote(Blue ice is harder and older. Some of it comes from deep in the ice sheet, formed from snow that fell before humans had stepped on Europe.)
 
 ::image:texture.avif(Shapes and textures of icebergs vary wildly, and tell a lot about the journey they've been on.)
 In the sun, the melting ice creates channels and draws streaks on the surface. Under water, warm sea currents etch tiny groove-like patterns that almost seem biological. The berg in the foreground has recently rolled over.
@@ -133,9 +133,9 @@ Warm smiles, hugs and kisses between passengers and airport staff are a common a
 
 Greenland sits outside the EU aviation security jurisdiction, which explains some of the informality of it all.
 
-::image:dash8b.avif(Meet the DASH-8. Along with helicopters, these aircraft are crucial in connecting the remote settlements of northern Greenland.)
+::image:dash8b.avif(Meet the DASH-8. Along with helicopters, these aircraft are critical in connecting the remote settlements of northern Greenland.)
 
-The DASH-8/200 is a beautiful 37-seater that is the face of domestic air travel in the country. While not as fast as jet planes, this propeller-powered nimble aircraft has incredible acceleration from rest, reaching takeoff speeds rather quickly, making it ideal for short and rugged airstrips. In other words, great for Greenland.
+The DASH-8/200 is a slender 37-seater that is the face of domestic air travel in the country. While not as fast as jet planes, this propeller-powered aircraft has surprising acceleration from rest, reaching takeoff speeds rather quickly, making it ideal for short and rugged airstrips. In other words, great for Greenland.
 
 ::image:blades.avif(The landscape through the blades.)
 
