@@ -165,4 +165,3 @@ Maybe that's what keeps calling. Here, at the edge of what's habitable, in all t
 
 ::bleed:manybergs.avif
 
-::image:blades.avif
