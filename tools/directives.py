@@ -7,6 +7,32 @@ This is distinct from @@key: value metadata at the top of files.
 
 import re
 import sys
+from pathlib import Path
+
+ASSETS_DIR = Path(__file__).resolve().parent.parent / "assets"
+_pil_warned = False
+
+
+def orientation(post_name: str, filename: str) -> str:
+    """'landscape' or 'portrait' from the image file's pixel size; '' if unknown.
+
+    Essay pages use the class to let landscapes break out of the text column
+    while portraits stay on it. Needs Pillow with AVIF support (>=11.2).
+    """
+    global _pil_warned
+    try:
+        from PIL import Image
+    except ImportError:
+        if not _pil_warned:
+            print("Warning: Pillow not installed; images get no orientation class", file=sys.stderr)
+            _pil_warned = True
+        return ""
+    try:
+        with Image.open(ASSETS_DIR / post_name / filename) as im:
+            w, h = im.size
+    except (OSError, ValueError):
+        return ""
+    return "landscape" if w > h else "portrait"
 
 
 def image(args: str, post_name: str, caption: str = None) -> str:
@@ -23,13 +49,21 @@ def image(args: str, post_name: str, caption: str = None) -> str:
     case it is split into one caption per image, in order. An empty segment
     leaves that image uncaptioned. On mobile the row stacks into separate
     captioned figures, exactly as if each image had its own ::image: tag.
+
+    A single <img> carries its orientation as a class ("landscape" or
+    "portrait"); essay pages let landscapes break out of the text column.
+    The uncaptioned form stays a markdown image (with an attr_list class) so
+    consecutive images keep sharing one paragraph, as they always have.
     """
     files = args.split(",")
     if len(files) == 1:
-        img = f'<img src="../assets/{post_name}/{files[0]}" />'
+        o = orientation(post_name, files[0])
+        cls = f' class="{o}"' if o else ""
         if caption:
+            img = f'<img{cls} src="../assets/{post_name}/{files[0]}" />'
             return f"<figure>{img}<figcaption>{caption}</figcaption></figure>"
-        return f"![](../assets/{post_name}/{files[0]})"
+        attrs = f"{{: .{o}}}" if o else ""
+        return f"![](../assets/{post_name}/{files[0]}){attrs}"
     if caption and "|" in caption:
         captions = [c.strip() for c in caption.split("|")]
         if len(captions) > len(files):
@@ -99,7 +133,9 @@ def image_side(args: str, post_name: str, caption: str = None) -> str:
     Usage:
         ::image-side:photo.avif(Caption text)
     """
-    img = f'<img src="../assets/{post_name}/{args}" />'
+    o = orientation(post_name, args)
+    cls = f' class="{o}"' if o else ""
+    img = f'<img{cls} src="../assets/{post_name}/{args}" />'
     if caption:
         return f'<figure class="img-side">{img}<figcaption>{caption}</figcaption></figure>'
     return f"<figure>{img}</figure>"
