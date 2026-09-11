@@ -164,7 +164,7 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 <br><br><br>
 
-On my first arrival at Nuuk, I found the airport to be comically simple but functional, with just three gates, a single café and a small duty free shop. Outside was a single file taxi line with two cabs.
+::dropcap(On my first arrival at Nuuk, I found the airport to be comically simple but functional, with just three gates, a single café and a small duty free shop. Outside was a single file taxi line with two cabs.)
 
 On my second arrival at Nuuk, twelve days later, it felt like it had grown in size. Three gates seemed excessive and having two cabs waiting felt like luxury.
 
