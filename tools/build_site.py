@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # /// script
 # requires-python = ">=3.10"
-# dependencies = ["markdown"]
+# dependencies = ["markdown", "pillow>=11.2"]
 # ///
 """Build static site from markdown posts."""
 

@@ -19,7 +19,7 @@ except ImportError:
 
 HTML_TEMPLATE = """\
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,6 +89,7 @@ def convert_markdown_to_html(md_content: str) -> str:
             "tables",
             "fenced_code",
             "md_in_html",
+            "attr_list",  # lets directives put a class on markdown images: ![](x){: .landscape}
         ],
     )
     return md.convert(md_content)

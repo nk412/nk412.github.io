@@ -515,3 +515,63 @@ body.theme-dark pre {
         font-size: 1.4em;
     }
 }
+
+/* --- Essay layout on desktop: decouple the text measure from the image width ---
+   The container is the image column (1000px). Text, portraits and squares sit
+   on a 620px reading measure centered inside it, so a portrait and its caption
+   share the same edges. Landscape images (classed by the build from the file's
+   pixel size), image rows and bleeds break out to the full column.
+   Mobile (<=600px) is untouched: everything here is desktop-only. */
+@media (min-width: 601px) {
+    body.essay .container {
+        max-width: 1040px; /* 1000px column + 20px padding each side */
+    }
+
+    /* Reading measure for everything that is not an image block.
+       :where() keeps specificity low so the image-paragraph rule below wins. */
+    body.essay .container > :where(:not(figure, .img-row, .img-grid)) {
+        max-width: 620px;
+        margin-inline: auto;
+    }
+
+    /* An uncaptioned ::image: renders as <p><img>; treat it as an image block */
+    body.essay .container > p:has(> img) {
+        max-width: none;
+    }
+
+    /* Body text: leading a touch above Lora's ~1.28 default, justified with
+       hyphenation (needs lang="en" on <html>) so lines don't open up rivers */
+    body.essay .container > p:not(.dek) {
+        line-height: 1.4;
+        text-align: justify;
+        /* hyphens: auto; */  /* temporarily off for comparison */
+    }
+
+    /* Single images default to the reading measure (also the fallback when the
+       build could not read the orientation); landscapes fill the column but
+       never grow taller than the screen. */
+    body.essay .container > :where(figure:not(.bleed):not(.img-square), p) > img {
+        display: block;
+        width: auto;
+        max-width: 620px;
+        margin: 0 auto;
+    }
+    body.essay .container img.landscape {
+        max-width: 100%;
+        max-height: 80vh;
+    }
+
+    /* Square crops stay on the reading measure rather than growing to 1000px */
+    body.essay .container > .img-square {
+        max-width: 620px;
+        margin-inline: auto;
+    }
+
+    /* Captions sit on the reading measure, as bleed captions already do */
+    body.essay .container > figure:not(.bleed):not(.img-side) > figcaption,
+    body.essay .bleed figcaption {
+        max-width: 620px;
+        margin: 0.5em auto 0;
+        padding: 0;
+    }
+}
