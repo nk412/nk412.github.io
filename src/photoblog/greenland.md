@@ -163,7 +163,12 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 <hr>
 
 <br><br><br>
-Maybe that’s what keeps calling. Here, at the edge of what’s habitable, in all this space and quiet, you can still hear it: ice rumbling, dogs howling, the occasional drone of a DASH-8. Underfoot, life holds on. Ankle-high, lying low.
+
+On my first arrival at Nuuk, I found the airport to be comically simple but functional, with just three gates, a single café and a small duty free shop. Outside was a single file taxi line with two cabs.
+
+On my second arrival at Nuuk, twelve days later, it felt like it had grown in size. Three gates seemed excessive and having two cabs waiting felt like luxury.
+
+At the edge of what's habitable, it's not just your sense of distance that's impaired, but also your sense of scale. You shrink against the expanse and the quiet. Perhaps this is what keeps calling: _an invitation to feel small and insignificant for a brief moment_.
 
 ::bleed:manybergs.avif
 
