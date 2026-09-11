@@ -32,7 +32,7 @@ We subconsciously judge distances based on how hazy they appear. Over here, misc
 
 <br><br>
 
-::dropcap(Most of Greenland is neither green nor land. It is one piece of ice, up to three kilometers thick, that has been sitting over the rock for 120,000 years.)
+::dropcap(Most of Greenland is neither green nor land. It is one piece of ice, up to three kilometres thick, that has been sitting over the rock for 120,000 years.)
 
 **Here's the recipe:** First, make it snow. Keep everything cold enough to not let it melt. Add more snow on top. The pressure that builds turns the lower layers of snow into ice. Repeat for a hundred thousand years and voilà, you have the Greenlandic ice sheet.
 
@@ -52,7 +52,7 @@ This is the Ilulissat Icefjord (_Kangia_ in Greenlandic). This slow-moving fjord
 
 ::image:fjord2.avif(Two men look out at the fjord from the cliff.)
 
-This is the most _productive_ (yes, that is indeed the word used to describe a glacier's activity) in the northern hemisphere, and also the fastest. It flows at 40 metres a day, to the West out to the Labrador sea (to the right in this picture).
+This is the most productive glacier in the northern hemisphere, and also the fastest. It flows at 40 metres a day, to the West out to Disko Bay (to the right in this picture).
 
 ::image:hat.avif(A cowboy takes a walk by the fjord.)
 
@@ -60,13 +60,15 @@ This is the most _productive_ (yes, that is indeed the word used to describe a g
 
 ::dropcap(The biggest of these bergs face further waits once they reach the mouth. A large moraine deposit, left over from the previous Ice Age, raises the seabed to less than 250 metres below. Like a speed bump, the taller icebergs run aground, where they loiter for a year or two, moving laterally, until they melt enough to clear it.)
 
-::image:hugeberg.avif(A giant tabular iceberg floats in the Ilulissat Icefjord.)
+::image:hugeberg.avif(A giant tabular iceberg floats in the bay.)
 
-What you're seeing is (sorry) _just the tip of the iceberg_. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
+What you're seeing is just the tip of... _hmm_. What you're seeing is just the top part of the block of ice. Ninety percent of its volume is under the sea. The biggest of these stands at a hundred metres above the sea, and nine hundred metres below.
 
-::image:bergsboat.avif(A boat on the bottom right for scale.)
+::image:bergsboat.avif(A boat on the bottom right for scale. Ice corridors change every day, like an ever-shifting maze.)
 
 ::pullquote(The Sermeq Kujalleq is the likely birthplace of the Titanic's killer.)
+
+The icebergs that make it through go on a long journey spanning years, past Labrador and Newfoundland in Canada, eventually melting in the warm waters off of New York. Some have even been spotted all the way in the Bahamas and Ireland.
 
 ::image:boatwindow.avif(An hour of this and the white stops registering as scenery.)
 
@@ -81,7 +83,7 @@ In the sun, the melting ice creates channels and draws streaks on the surface. U
 
 <br><br>
 
-::dropcap(Lack of trees does not mean a lack of flora. There's an entire forest below your feet. Greenland's autumn colors come from ankle-high. The secret to surviving the Arctic tundra is to lie low, away from the winds.)
+::dropcap(Lack of trees does not mean a lack of flora. There's an entire forest below your feet. Greenland's autumn colours come from ankle-high. The secret to surviving the Arctic tundra is to lie low, away from the winds.)
 
 ::image:yellow.avif,red.avif(Creeping willows and dwarf birch thrive in the tundra, and together they can coat an entire mountain in yellow and red rust.)
 
@@ -127,9 +129,7 @@ Versions of this word can be heard all the way to Alaska.
 ::image:airport.avif(Sisimiut airport's waiting area + check in + departures and arrivals hall.)
 Domestic air travel in Greenland feels closer to ferry travel than flying. Airports are tiny buildings that serve as check-in desk, waiting room, departures and arrivals all at the same time. 
 
-::pullquote(Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip all of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off.)
-
-Warm smiles, hugs and kisses between passengers and airport staff are a common and wholesome sight.
+::pullquote(Working on a strong honour system and a big everyone-knows-everyone energy, they have opted to skip all of the security theater. There are no baggage screens or pat downs, you just present your boarding pass and you're off. Warm smiles, hugs and kisses between passengers and airport staff are a common and endearing sight.)
 
 Greenland sits outside the EU aviation security jurisdiction, which explains some of the informality of it all.
 
@@ -148,7 +148,7 @@ There are no roads outside towns in Greenland. Ferries take days, and these flig
 
 ::image:dog.avif(The Greenland dog, or Grønlandshund (Danish), or Kalaallit Qimmiat (Greenlandic). A fine specimen.)
 
-These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Siberia via Alaska and Canada. The only exceptions allowed are for police and guide dogs, and even then, they have to be neutered.
+These rules exist to maintain genetic isolation. The _Kalaallit Qimmiat_ is essentially a pure breed isolated for a thousand years, and originally came with the Thule people when they migrated from Siberia via Alaska and Canada. The only exceptions allowed are for police and guide dogs, and even then, they have to be sterilised.
 
 ::pullquote(If a dog goes south of the Arctic Circle, it is never allowed back in. If a dog is flown to Copenhagen for treatment, it has to be left behind.)
 
@@ -162,11 +162,11 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 <hr>
 
-<br><br><br>
+<br><br><br><br>
 
-::dropcap(On my first arrival at Nuuk, I found the airport to be comically simple but functional, with just three gates, a single café and a small duty free shop. Outside was a single file taxi line with two cabs.)
+::dropcap(On my first arrival at Nuuk, I found the airport to be comically simple but functional, with just three gates, a single café and a small duty free shop. Outside was a single-file taxi line with two cabs.)
 
-On my second arrival at Nuuk, twelve days later, it felt like it had grown in size. Three gates seemed excessive and having two cabs waiting felt like luxury.
+On my second arrival at Nuuk, twelve days later, it felt like it had magically grown in size. Three gates seemed excessive and having two cabs waiting felt like luxury.
 
 At the edge of what's habitable, it's not just your sense of distance that's impaired, but also your sense of scale. You shrink against the expanse and the quiet. Perhaps this is what keeps calling: _an invitation to feel small and insignificant for a brief moment_.
 
