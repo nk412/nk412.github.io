@@ -168,7 +168,7 @@ South of town is a giant field of over five hundred dogs and pups, barking, play
 
 On my second arrival at Nuuk, twelve days later, it felt like it had magically grown in size. Three gates seemed excessive and having two cabs waiting felt like luxury.
 
-At the edge of what's habitable, it's not just your sense of distance that's impaired, but also your sense of scale. You shrink against the expanse and the quiet. Perhaps this is what keeps calling: _an invitation to feel small and insignificant for a brief moment_.
+At the edge of what's habitable, it's not just your sense of distance that's impaired, but also your sense of scale. You shrink against the expanse and the quiet. Perhaps this is what keeps calling: _an invitation to feel small for a brief moment_.
 
 ::bleed:manybergs.avif
 
